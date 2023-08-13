@@ -26,7 +26,7 @@ export default function AboutUs() {
               Saudi Arabia&apos;s leading innovative Business Consultancy Firm.
             </p>
             <p className="text-red-600  text-justify mt-4">
-              We're a full-service ux design and branding agency that rolls up our sleeves
+              We&apos;re a full-service ux design and branding agency that rolls up our sleeves
               and works closely with our clients.
               Together, we craft unforgettable user experiences that span all platforms and touchpoints of
               brands. We go

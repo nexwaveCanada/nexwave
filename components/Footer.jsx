@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import logo from 'public/logo.png'
+import logo from 'public/logo-black.png'
 import { FaInstagram } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
@@ -19,6 +19,7 @@ function Footer({ path }) {
 							src={logo}
 							height={0}
 							width={0}
+							alt="Logo"
 						/>
 						<div className="h-8" />
 
