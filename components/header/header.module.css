@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Roboto:wght@300&display=swap');
+
+.container {
+    position: relative;
+    flex-direction: column;
+    width: auto;
+    height: 92vh;
+
+    overflow-y: scroll;
+}
+
+
+.t {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+
+    color: #000000;
+}
+
+.tgreen {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+
+    color: #22A646;
+}
+
+.title {
+    margin: 0;
+    padding-bottom: 0;
+    position: relative;
+    padding-left: 154px;
+    padding-top: 8%;
+
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 90px;
+    line-height: 130px;
+
+    color: #22A646;
+
+    mix-blend-mode: luminosity;
+}
+
+.subtitle {
+
+    padding-left: 33vw;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 37px;
+    line-height: 51px;
+
+    color: #000000;
+
+    mix-blend-mode: luminosity;
+}
+
+.row {
+
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 51px;
+    padding-right: 51px;
+    padding-top: 40px;
+}
+
+.rowsmall {
+    width: 25vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width:1200px) {
+    .container {
+
+
+        display: flex;
+    }
+
+    .title {
+        font-size: 60px;
+        line-height: 75px;
+        padding-top: 35%;
+        /* padding-left: 15px;
+        padding-top: 20%;    line-height: 110px; */
+    }
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+
+    }
+
+    .title {
+        font-size: 60px;
+        line-height: 85px;
+        padding-left: 15px;
+        padding-top: 10%;
+    }
+
+    .subtitle {
+        font-size: 25px;
+        line-height: 30px;
+    }
+}
+
+@media (max-width: 576px) {
+    .title {
+        font-size: 38px;
+        line-height: 50px;
+        padding-left: 10px;
+        padding-top: 9%;
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .subtitle {
+        font-size: 20px;
+        line-height: 30px;
+        padding-left: 0px;
+        left: 0;
+    }
+}
+
+
+/* Media queries for responsiveness */

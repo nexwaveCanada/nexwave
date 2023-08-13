@@ -1,0 +1,60 @@
+.c {
+    width: auto;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    display: flex;
+    background-size: cover;
+    scroll-behavior: smooth;
+    transform-style: preserve-3d;
+    /* flex-direction: column;
+    overflow-y: scroll; */
+}
+
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    flex: start;
+    padding-left: 15vw;
+    padding-top:1vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    width: 60%;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3vw;
+    line-height: 3.5vw;
+    padding-top: 5%;
+
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+}
+
+@media (max-width: 1200px) {
+    .text {
+        padding-top: 0;
+        width: 50vw;
+        font-size: 55px;
+        line-height: 10vw;
+        left: 4%;
+    }
+}
+
+@media (max-width: 768px) {
+    .container{
+        padding-left: 3vw;
+    }
+    .text {
+        font-size: 10vw;
+        line-height: 40px;
+        width: auto;
+        padding-bottom: 5%;
+    }
+}
