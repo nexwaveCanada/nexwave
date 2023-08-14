@@ -9,7 +9,7 @@ export default function WhyUs() {
             <div className="relative w-screen h-screen flex bg-black/[.8] p-4 md:p-16 flex-col justify-center"
             > 
                 <div className="w-full">
-                    <h1 className="pt-8 pl-4 md:pt-16 md:pl-16 text-3xl md:text-5xl font-roboto font-semibold text-white" data-aos="fade-up"
+                    <h1 className="pt-8 pl-4 md:pt-16 md:pl-16 text-3xl md:text-5xl  font-semibold text-white" data-aos="fade-up"
                         data-aos-easing="linear"
                         data-aos-duration="1500">Why Nexwave?</h1>
                 </div>
@@ -29,12 +29,12 @@ export default function WhyUs() {
                     {/* <ol className="list-disc" data-aos="fade-up"
                         data-aos-easing="linear"
                         data-aos-duration="1500">
-                        <li className="pb-1 md:pb-3 text-base md:text-xl text-white font-roboto font-bold">Extensive expertise tailored to your business needs.</li>
-                        <li className="pb-1 md:pb-3 text-base md:text-xl text-white font-roboto font-bold">Client-centric approach focused on your success.</li>
-                        <li className="pb-1 md:pb-3 text-base md:text-xl text-white font-roboto font-bold">Meticulous compliance and accuracy.</li>
-                        <li className="pb-1 md:pb-3 text-base md:text-xl text-white font-roboto font-bold">Timely and efficient service delivery.</li>
-                        <li className="pb-1 md:pb-3 text-base md:text-xl text-white font-roboto font-bold">Transparent and open communication.</li>
-                        <li className="pb-1 md:pb-3 text-base md:text-xl text-white font-roboto font-bold">Trustworthy handling of your confidential information.</li>
+                        <li className="pb-1 md:pb-3 text-base md:text-xl text-white  font-bold">Extensive expertise tailored to your business needs.</li>
+                        <li className="pb-1 md:pb-3 text-base md:text-xl text-white  font-bold">Client-centric approach focused on your success.</li>
+                        <li className="pb-1 md:pb-3 text-base md:text-xl text-white  font-bold">Meticulous compliance and accuracy.</li>
+                        <li className="pb-1 md:pb-3 text-base md:text-xl text-white  font-bold">Timely and efficient service delivery.</li>
+                        <li className="pb-1 md:pb-3 text-base md:text-xl text-white  font-bold">Transparent and open communication.</li>
+                        <li className="pb-1 md:pb-3 text-base md:text-xl text-white  font-bold">Trustworthy handling of your confidential information.</li>
                     </ol> */}
                 </div>
             </div>     

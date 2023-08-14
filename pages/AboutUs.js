@@ -14,7 +14,7 @@ export default function AboutUs() {
   const isBigScreen = useMediaQuery({ query: "(min-width: 1824px)" });
   const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
   return (
-    <div>
+    <div className=" bg-gray-100">
       <Navbar path="/" />
       <div className="aboutUsContainer mx-4 lg:mx-16">
         <div className="aboutUsMain">
@@ -167,7 +167,7 @@ export default function AboutUs() {
         <div className="whyUsContent mx-4 lg:mx-16 mt-12 mb-12">
           <div>
             <div className="whyUsH1">
-              <h1 className="mx-4 lg:mx-16 font-roboto text-red-600 font-semibold my-4 md:my-8 text-start">
+              <h1 className="mx-4 lg:mx-16  text-red-600 font-semibold my-4 md:my-8 text-start">
                 Why Us?
               </h1>
             </div>
@@ -178,7 +178,7 @@ export default function AboutUs() {
                 enable you to make
                 <span >well-informed decisions that will drive growth and foster innovation.</span>
               </p>
-              {/* <ul className="mx-4 lg:mx-16 font-roboto my-4 md:my-8 text-start">
+              {/* <ul className="mx-4 lg:mx-16  my-4 md:my-8 text-start">
                 <li>Passionate team as you are on your business</li>
                 <li>24/7 support service</li>
                 <li>Client service across the globe</li>

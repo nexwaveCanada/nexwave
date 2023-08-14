@@ -57,7 +57,7 @@ export default function ContactUs() {
       <Navbar path="/" hideNav={hideNavBar} />
       {/* <div className='bg-green-600 justify-center items-center flex flex-col h-72'>
         <div className='lg:w-2/3 w-full pl-8 lg:pl-0'>
-          <h1 className='font-roboto, font-bold md:text-4xl text-3xl lg:text-6xl pb-2 lg:pb-4 text-white'>Let&apos;s talk</h1>
+          <h1 className=', font-bold md:text-4xl text-3xl lg:text-6xl pb-2 lg:pb-4 text-white'>Let&apos;s talk</h1>
         </div>
         <p className='w-full px-8 lg:px-0 lg:w-2/3 text-white md:text-lg text-base lg:text-xl'>We&apos;re here for you. Our Saudi Arabia-based accounting and
           audit firm
@@ -159,7 +159,7 @@ export default function ContactUs() {
         </div>
       </div>
       {/* <div className=" my-10 flex justify-center w-full items-center flex-col lg:flex-row">
-        <p className="lg:w-1/3 w-full lg:px-0 px-8 text-justify pb-5 text-green-900 font-roboto lg:pr-32">
+        <p className="lg:w-1/3 w-full lg:px-0 px-8 text-justify pb-5 text-green-900  lg:pr-32">
           If there&apos;s anything you need assistance with or if you have any
           questions, thoughts, or worries, please don&apos;t hesitate to reach
           out to us. Our dedicated support team is here for you, ready to

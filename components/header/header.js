@@ -12,14 +12,14 @@ export default function Header({ bgImage }) {
             />
             <div className="relative z-10 flex flex-col justify-center items-start h-full">
                 <h1 className='headerContent'
-                // className="lg:text-6xl text-4xl md:text-5xl font-bold font-Roboto text-green-700 leading-normal bg-transparent lg:pl-16 pl-8 md:pl-16" 
+                // className="lg:text-6xl text-4xl md:text-5xl font-bold  text-green-700 leading-normal bg-transparent lg:pl-16 pl-8 md:pl-16" 
                 
                 >
                     Empowering SMEs with  <br className="hidden md:block" />
                     Data-Driven Solutions.
                 </h1>
                 <h3 className='subHeading'
-                // className=" w-full flex lg:pl-64 font-Roboto text-xl md:text-3xl lg:text-4xl pt-3 md:pt-7 leading-normal text-blue-950 font-semibold"
+                // className=" w-full flex lg:pl-64  text-xl md:text-3xl lg:text-4xl pt-3 md:pt-7 leading-normal text-blue-950 font-semibold"
                 >
                     Transforming Small and Medium Enterprises with<br/> Data-Powered Solutions and Customer-Centric <br/>Marketing Strategies.
                 </h3>
@@ -27,7 +27,7 @@ export default function Header({ bgImage }) {
         </div>
         // <div className={styles.container}>
         //     <div className={styles.title}>
-        //         {/* <span className='text-2xl text-red-600 font-roboto font-bold h-0 pl-2'>Accounting &amp; Audit Firm<br /></span> */}
+        //         {/* <span className='text-2xl text-red-600  font-bold h-0 pl-2'>Accounting &amp; Audit Firm<br /></span> */}
         //         Building Trust, <br className='hidden md:block' />Strengthening Businesses.</div>
         //     <div className={styles.subtitle}>Saudi Arabia&apos;s leading innovative<br />Accounting & Auditing services.
         //         {/* <br />Saudi Arabia&apos;s leading innovative

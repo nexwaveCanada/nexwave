@@ -14,7 +14,7 @@ export default function Partners() {
     const logoSet = [logo1,logo2, logo3, logo4,logo5 ,logo6, logo7, logo8 ]
     return (
         <div className='flex flex-col justify-center items-start bg-black bg-opacity-90 px-4 lg:px-16 py-8 md:py-16 w-full'>
-            <h1 className='mx-4 lg:mx-16 font-roboto text-red-600 font-semibold my-4 md:my-8 text-center'>
+            <h1 className='mx-4 lg:mx-16  text-red-600 font-semibold my-4 md:my-8 text-center'>
                 CLIENTS WHO TRUST US
             </h1>
             <ul className="grid lg:grid-cols-8 gap-6 lg:mx-12 my-8 col-span-1 md:grid-cols-5 grid-cols-3">

@@ -38,7 +38,7 @@ export default function Services() {
 
     return (
         <div className="flex flex-col items-left lg:justify-center w-auto h-screen sticky top-0 bg-cover bg-gray-100 scroll-smooth" id='services'>
-            <h1 className="ml-4 lg:ml-32 pb-8 md:pb-16 font-roboto text-red-600 font-semibold pt-14 lg:pt-0   ">
+            <h1 className="ml-4 lg:ml-32 pb-8 md:pb-16  text-red-600 font-semibold pt-14 lg:pt-0   ">
                 FEATURED SERVICES
             </h1>
             <div className='lg:hidden flex flex-row justify-center overflow-x-scroll mb-10 pl-0'>
@@ -82,7 +82,7 @@ export default function Services() {
                 <ul className=" lg:pr-20 w-full lg:w-1/3  flex-row lg:flex-col justify-center px-4 lg:px-16 overflow-y-auto overflow-x-auto hidden lg:block">
                     <li
                         className={clsx(
-                            "font-roboto font-bold text-lg md:text-xl lg:text-3xl lg:hover:text-4xl md:hover:text-2xl  pb-8 md:pb-10 text-left lg:text-right cursor-pointer",
+                            " font-bold text-lg md:text-xl lg:text-3xl lg:hover:text-4xl md:hover:text-2xl  pb-8 md:pb-10 text-left lg:text-right cursor-pointer",
                             service === "Tech" ? "text-red-600" : "text-gray-400"
                         )}
                         onClick={() => setService("Tech")}
@@ -91,7 +91,7 @@ export default function Services() {
                     </li>
                     <li
                         className={clsx(
-                            "font-roboto font-bold text-lg md:text-xl lg:text-3xl lg:hover:text-4xl md:hover:text-2xl  pb-8 md:pb-10 text-left lg:text-right cursor-pointer",
+                            " font-bold text-lg md:text-xl lg:text-3xl lg:hover:text-4xl md:hover:text-2xl  pb-8 md:pb-10 text-left lg:text-right cursor-pointer",
                             service === "Marketing" ? "text-red-600" : "text-gray-400"
                         )}
                         onClick={() => setService("Marketing")}
@@ -99,7 +99,7 @@ export default function Services() {
                     </li>
                     {/* <li
                         className={clsx(
-                            "font-roboto font-bold text-lg md:text-xl lg:text-3xl lg:hover:text-4xl md:hover:text-2xl  pb-8 md:pb-10 text-left lg:text-right cursor-pointer ",
+                            " font-bold text-lg md:text-xl lg:text-3xl lg:hover:text-4xl md:hover:text-2xl  pb-8 md:pb-10 text-left lg:text-right cursor-pointer ",
                             service === "financial" ? "text-red-600" : "text-gray-400"
                         )}
                         onClick={() => setService("financial")}
@@ -107,7 +107,7 @@ export default function Services() {
                     </li>
                     <li
                         className={clsx(
-                            "font-roboto font-bold text-lg md:text-xl lg:text-3xl lg:hover:text-4xl md:hover:text-2xl  pb-8 md:pb-10 text-left lg:text-right cursor-pointer",
+                            " font-bold text-lg md:text-xl lg:text-3xl lg:hover:text-4xl md:hover:text-2xl  pb-8 md:pb-10 text-left lg:text-right cursor-pointer",
                             service === "audit" ? "text-red-600" : "text-gray-400"
                         )}
                         onClick={() => setService("audit")}

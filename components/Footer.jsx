@@ -23,73 +23,73 @@ function Footer({ path }) {
 						/>
 						<div className="h-8" />
 
-						<li className="text-gray-500 text-md pb-2  hover:text-red-600 cursor-pointer font-Roboto pl-5">
-						(123) 456-7890
+						<li className="text-gray-500 text-md pb-2  hover:text-red-600 cursor-pointer  lg:pl-5">
+							(123) 456-7890
 						</li>
-						<li className="text-gray-500 text-md pb-2  hover:text-red-600 cursor-pointer font-Roboto pl-5">
-						hello@reallygreatsite.com
+						<li className="text-gray-500 text-md pb-2  hover:text-red-600 cursor-pointer  lg:pl-5">
+							hello@reallygreatsite.com
 						</li>
-						<li className="text-gray-500 text-md pb-2  hover:text-red-600 cursor-pointer font-Roboto pl-5">
-						North York, Toronto, Ontario M9L1N2
+						<li className="text-gray-500 text-md pb-2  hover:text-red-600 cursor-pointer  lg:pl-5">
+							North York, Toronto, Ontario M9L1N2
 						</li>
-						
+
 					</ul>
 				</div>
 				{/* <div className="p-5">
 					<ul>
-						<p className="text-red-600 font-bold text-2xl pb-4 font-Roboto">About Us</p>
-						<li className="text-gray-500 text-md pb-2  cursor-pointer font-Roboto">
+						<p className="text-red-600 font-bold text-2xl pb-4 ">About Us</p>
+						<li className="text-gray-500 text-md pb-2  cursor-pointer ">
 							Who we are
 						</li>
-						<li className="text-gray-500 text-md pb-2 0 cursor-pointer font-Roboto">
+						<li className="text-gray-500 text-md pb-2 0 cursor-pointer ">
 							Careers
 						</li>
-						<li className="text-gray-500 text-md pb-2  cursor-pointer font-Roboto">
+						<li className="text-gray-500 text-md pb-2  cursor-pointer ">
 							Our mission
 						</li>
-						<li className="text-gray-500 text-md pb-2  cursor-pointer font-Roboto">
+						<li className="text-gray-500 text-md pb-2  cursor-pointer ">
 							Our vision
 						</li>
 					</ul>
 				</div> */}
 				<div className="p-5">
 					<ul>
-						<p className="text-red-600 font-bold text-2xl pb-4 font-Roboto">Services</p>
-						<Link href= {path + "#incorporation"}>
-							<li className="text-gray-500 text-md pb-2  cursor-pointer font-Roboto">
-							Enterprise Data Solutions
+						<p className="text-red-600 font-bold text-2xl pb-4 ">Services</p>
+						<Link href={path + "#incorporation"}>
+							<li className="text-gray-500 text-md pb-2  cursor-pointer ">
+								Enterprise Data Solutions
 							</li></Link>
 						<Link href={path + "#consultation"}>
-							<li className="text-gray-500 text-md pb-2  cursor-pointer font-Roboto">
-							Custom AI Solutions
+							<li className="text-gray-500 text-md pb-2  cursor-pointer ">
+								Custom AI Solutions
 							</li></Link>
 						<Link href={path + "#financial"}>
-							<li className="text-gray-500 text-md pb-2  cursor-pointer font-Roboto">
-							Enterprise UX Solutions
+							<li className="text-gray-500 text-md pb-2  cursor-pointer ">
+								Enterprise UX Solutions
 							</li>
 						</Link>
-					
+
 					</ul>
 				</div>
 				<div className="p-5">
 					<ul>
-						<p className="text-red-600 font-bold text-2xl pb-4 font-Roboto">Our Company</p>
+						<p className="text-red-600 font-bold text-2xl pb-4 ">Our Company</p>
 						<Link href={'/AboutUs'}>
-							<li className="text-gray-500 text-md pb-2  cursor-pointer font-Roboto">
+							<li className="text-gray-500 text-md pb-2  cursor-pointer ">
 								About us
 							</li></Link>
 						<Link href={'/ContactUs'}>
-							<li className="text-gray-500 text-md pb-2  cursor-pointer font-Roboto">
+							<li className="text-gray-500 text-md pb-2  cursor-pointer ">
 								Contact us
 							</li></Link>
-						{/* <li className="text-gray-500 text-md pb-2  cursor-pointer font-Roboto">
+						{/* <li className="text-gray-500 text-md pb-2  cursor-pointer ">
 							FAQ
 						</li> */}
 					</ul>
 				</div>
 			</div>
 			<div className="flex flex-col lg:flex-row items-center lg:items-end w-full px-4 lg:pr-32 md:justify-end justify-center bg-gray-100">
-				<div className="text-teal-600 font-bold md:text-xl uppercase text-sm font-Roboto">
+				<div className="text-teal-600 font-bold md:text-xl uppercase text-sm ">
 					Connect with us on
 				</div>
 				<ul className="flex gap-6 justify-center pt-5 lg:pt-0 lg:pl-2.5">
@@ -108,10 +108,10 @@ function Footer({ path }) {
 				</ul>
 			</div>
 			<div className="flex flex-col md:flex-row text-center bg-gray-100 px-4 md:px-32 py-4 md:py-8 justify-between">
-				<h1 className="text-gray-800 font-Roboto">
-					© 2023 by Nexwave | All Right Reserved | Powered by <a href="https://procube.cx/" className=" font-Roboto font-bold">procube.cx</a>
+				<h1 className="text-gray-800 ">
+					© 2023 by Nexwave | All Right Reserved | Powered by <a href="https://procube.cx/" className="  font-bold">procube.cx</a>
 				</h1>
-				<h1 className="text-red-600 font-bold uppercase mt-4 md:mt-0 font-Roboto">
+				<h1 className="text-red-600 font-bold uppercase mt-4 md:mt-0 ">
 					Privacy policy | Terms & Conditions
 				</h1>
 			</div>

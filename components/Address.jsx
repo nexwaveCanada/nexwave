@@ -4,7 +4,7 @@ export default function Address() {
   return (
     <div class="bg-dotted-spacing-8 bg-dotted-red-600 flex justify-center content-center w-full bg-white">
       <div className="w-full  lg:w-2/3 2xl:w-1/2 px-8 lg:px-0 my-32 bg-white">
-        <h1 className="mx-2 mt-2 lg:mt-12 mb-4 lg:mx-12 font-roboto text-red-600 text-5xl font-bold">
+        <h1 className="mx-2 mt-2 lg:mt-12 mb-4 lg:mx-12  text-red-600 text-5xl font-bold">
           Our offices
         </h1>
         <p className="mx-2 lg:mx-12 mb-4 text-lg ">
@@ -14,10 +14,10 @@ export default function Address() {
         </p>
         <div className="lg:mx-16 bg-gray-100 mb-7 flex-row addressContainer">
           <div className="  flex-col addressCard">
-            <h2 className="font-roboto p-4 text-red-600 font-bold uppercase text-sm">
+            <h2 className=" p-4 text-red-600 font-bold uppercase text-sm">
               Canada
             </h2>
-            <h1 className="font-roboto pl-4 text-red-600 font-bold uppercase text-3xl">
+            <h1 className=" pl-4 text-red-600 font-bold uppercase text-3xl">
               North York
             </h1>
             <div className="h-4" />
@@ -55,7 +55,7 @@ export default function Address() {
 function TitleSubTitle({ title, subtitle }) {
   return (
     <div className="pl-4 my-4">
-      <h2 className="font-roboto  text-red-600 font-bold uppercase text-base ">
+      <h2 className="  text-red-600 font-bold uppercase text-base ">
         {title}
       </h2>
       <p className="font-robot text-base  pt-2">{subtitle}</p>
