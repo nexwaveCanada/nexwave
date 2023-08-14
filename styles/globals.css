@@ -365,12 +365,14 @@ nav {
 }
 
 .addressCard {
-  width: 90%;
+  width: 50%;
   background: rgb(255, 255, 255, 0.8);
   border-radius: 6px;
   padding: 20px 15px;
   border: 3px solid #FF0000;
   padding-bottom: 0px;
+  padding-left: auto;
+  padding-right: auto;
 }
 
 .hideNumber {
@@ -380,7 +382,7 @@ nav {
 /* landing page */
 .headerContent {
   margin-left: 5vw;
-  font-family: 'Roboto', sans-serif;
+
   font-size: 4vw;
   font-weight: bold;
   color: #FF0000;
@@ -389,7 +391,6 @@ nav {
 .subHeading {
   font-size: 1.8vw;
   font-weight: normal;
-  font-family: 'Roboto', sans-serif;
   margin-left:5vw;
   color: #000000;
   font-weight: bold;
@@ -398,7 +399,7 @@ nav {
 /* Footer */
 
 .partnerLogo {
-  width: 10vw;
+  width: 16vw;
 }
 
 @media screen and (max-width:786px) {

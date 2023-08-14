@@ -18,7 +18,7 @@ export default function Address() {
               Canada
             </h2>
             <h1 className="font-roboto pl-4 text-red-600 font-bold uppercase text-3xl">
-              Jeddah
+              North York
             </h1>
             <div className="h-4" />
             <TitleSubTitle
@@ -35,80 +35,11 @@ export default function Address() {
               title="Address"
               subtitle={
                 <span>
-                  Building no. 4626, 501, 
+                  Toronto,
                   <br />
-                  5th Floor, Hamza Shehatah St.
+                  Ontario,
                   <br />
-                  Al-Baghdadiyah Al-Gharbiyah
-                  <br />
-                  Jeddah 22235
-                </span>
-              }
-            />
-            <div className="h-2" />
-          </div>
-          <div className="  flex-col addressCard">
-            <h2 className="font-roboto p-4 text-red-600 font-bold uppercase text-sm">
-              Canada
-            </h2>
-            <h1 className="font-roboto pl-4 text-red-600 font-bold uppercase text-3xl">
-              Dammam
-            </h1>
-            <div className="h-4" />
-            <TitleSubTitle
-              title="Contact"
-              subtitle={
-                <span>
-                  + 966 566 416 774
-                  <br />+ 966 539 067 414
-                  <br />+ 966 531 170 957
-                </span>
-              }
-            />
-            <TitleSubTitle
-              title="Address"
-              subtitle={
-                <span>
-                  Building no. 7447, B31, 
-                  <br />
-                  3rd Floor, Al-Thasih St.
-                  <br />
-                  Al-Amamrah, 8th street 
-                  <br />
-                  Dammam 32415
-                </span>
-              }
-            />
-            <div className="h-2" />
-          </div>
-          <div className="  flex-col addressCard">
-            <h2 className="font-roboto p-4 text-red-600 font-bold uppercase text-sm">
-              Canada
-            </h2>
-            <h1 className="font-roboto pl-4 text-red-600 font-bold uppercase text-3xl">
-              Riyadh
-            </h1>
-            <div className="h-4" />
-            <TitleSubTitle
-              title="Contact"
-              subtitle={
-                <span>
-                  + 966 540 599 655
-                  <br />+ 966 539 067 414
-                  <br />+ 966 531 170 957
-                </span>
-              }
-            />
-            <TitleSubTitle
-              title="Address"
-              subtitle={
-                <span>
-                  Le Cygne Commercial
-                  <br />
-                  Center 2, 6th Floor<br />
-                  Al-Arz, Al-Olaya
-                  <br />
-                  Riyadh 12611{" "}
+                  M9L1N2
                 </span>
               }
             />

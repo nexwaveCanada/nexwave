@@ -11,7 +11,7 @@ import Link from "next/link";
 function Footer({ path }) {
 	return (
 		<>
-			<div className="bg-gray-100 h-1/2 w-full flex md:flex-row flex-col justify-around items-start lg:p-20 p-15">
+			<div className="bg-gray-100 h-1/2 w-full flex md:flex-row flex-col justify-around items-start lg:p-12 p-15">
 				<div className="p-5 ">
 					<ul>
 						<Image
@@ -23,14 +23,14 @@ function Footer({ path }) {
 						/>
 						<div className="h-8" />
 
-						<li className="text-gray-500 text-md pb-2  hover:text-red-600 cursor-pointer font-Roboto">
+						<li className="text-gray-500 text-md pb-2  hover:text-red-600 cursor-pointer font-Roboto pl-5">
 						(123) 456-7890
 						</li>
-						<li className="text-gray-500 text-md pb-2  hover:text-red-600 cursor-pointer font-Roboto">
+						<li className="text-gray-500 text-md pb-2  hover:text-red-600 cursor-pointer font-Roboto pl-5">
 						hello@reallygreatsite.com
 						</li>
-						<li className="text-gray-500 text-md pb-2  hover:text-red-600 cursor-pointer font-Roboto">
-						123 Anywhere St. Any City, ST 12345
+						<li className="text-gray-500 text-md pb-2  hover:text-red-600 cursor-pointer font-Roboto pl-5">
+						North York, Toronto, Ontario M9L1N2
 						</li>
 						
 					</ul>
