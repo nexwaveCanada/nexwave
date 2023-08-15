@@ -60,7 +60,7 @@ const Navbar = ({ path, hideNav }) => {
    
     return (
         <header id='navbar' 
-         style={isTabletOrMobile || !hideNav || scrollDirection == "up"?stylesCustom.active : stylesCustom.hidden}
+         style={!hideNav || scrollDirection == "up"?stylesCustom.active : stylesCustom.hidden}
          >
             <nav className={`nav`}>
                 <Link href={"/"}>

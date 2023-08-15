@@ -8,6 +8,7 @@ export default function ImageBox({ imagePath, text, bgColor, discription, bgImag
         backgroundColor: bgColor
 
     }
+    console.log(imagePath.src);
     return (
         <div 
         style={{ backgroundImage: `url(${imagePath.src})`, }} 
@@ -18,8 +19,8 @@ export default function ImageBox({ imagePath, text, bgColor, discription, bgImag
                     // style={{ backgroundImage: `url(${bgImage.src})`, transform: isTabletOrMobile ? "rotate(90deg)" : "rotate(0deg)" }}
                 > */}
                     <p className={styles.text}>{text}</p>
-                <p className=' pl-0 lg:pl-0 w-5/6 lg:w-2/5 md:w-2/4 md:text-left pt-4 opacity-100
-                 text-white text-lg text-justify md:text-xl sm:w-3/4 '>
+                <p className=' pl-0 lg:pl-0 w-full lg:w-2/5 md:w-2/4 md:text-left lg:pt-4 opacity-100
+                 text-white text-lg  md:text-xl sm:w-3/4 '>
                     {discription}
                 </p>
            

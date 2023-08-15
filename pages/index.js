@@ -5,6 +5,9 @@ import ImageBox from '@/components/image_container/imageBox'
 import firstImage from '../public/second.jpeg'
 import secondImage from '../public/third.jpeg'
 import bgImage from '../public/headerLine.svg'
+import mobFirstImage from '../public/mob1.jpeg'
+import mobSecondImage from '../public/mob2.jpeg'
+import mobThirdImage from '../public/mob3.jpeg'
 import line1 from '../public/lineW1.svg'
 import line2 from '../public/lineW2.svg'
 import line3 from '../public/lineW3.svg'
@@ -15,11 +18,15 @@ import NewsLetter from '@/components/NewsLetter'
 import Services from '@/components/Services'
 import WhyUs from '@/components/WhyUs'
 import Partners from '@/components/Partners'
+import { useMediaQuery } from "react-responsive";
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   const [hideNavBar, setHideNavBar] = useState(false)
+  const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
+
+  console.log(isMobile)
 
   useEffect(() => {
 
@@ -40,8 +47,8 @@ export default function Home() {
       <Navbar path="" hideNav={hideNavBar} />
       <Header bgImage={bgImage} />
       <div>
-        <ImageBox imagePath={canada} text={<>
-          Enterprise <br className=' lg:hidden'/>Data Solutions
+        <ImageBox imagePath={isMobile ? mobFirstImage : canada} text={<>
+          Enterprise <br className=' lg:hidden' />Data Solutions
         </>} bgColor='rgba(0, 0, 0, 0.5)'
           discription="Understanding your business data isn't just an advantage; it's a necessity. 
           Our custom data solutions transform those numbers into actionable insights, leading you straight to smarter 
@@ -50,8 +57,8 @@ export default function Home() {
           id={'incorporation'}
         />
 
-        <ImageBox imagePath={firstImage} text={<>
-          Custom <br className=' lg:hidden'/>AI Solutions
+        <ImageBox imagePath={isMobile ? mobSecondImage : firstImage} text={<>
+          Custom <br className=' lg:hidden' />AI Solutions
         </>} bgColor='rgba(0, 0, 0, 0.5)'
           discription="Imagine a tool that learns, evolves, and works tirelessly for your success. That's what our custom AI solutions 
           offer. From simplifying tasks to uncovering hidden opportunities, AI isn't just tech jargon; it's your next business ally. 
@@ -60,14 +67,14 @@ export default function Home() {
           id={'consultation'}
         />
 
-        <ImageBox imagePath={secondImage} text={<>
-          Enterprise<br className=' lg:hidden'/> UX Solutions
+        <ImageBox imagePath={isMobile ? mobThirdImage : secondImage} text={<>
+          Enterprise<br className=' lg:hidden' /> UX Solutions
         </>} bgColor='rgba(0, 0, 0, 0.5)'
           discription="Ever wondered why some digital platforms feel so...right? It’s all about the user experience (UX). Our 
           Enterprise UX solutions create brand experiences that are intuitive, efficient, and delightful. Turn your digital space into a powerful asset that resonates with your customers."
           bgImage={line3}
           id={'financial'}
-          
+
         />
 
         <Services />
@@ -75,7 +82,7 @@ export default function Home() {
       </div>
       <Partners />
       <NewsLetter />
-      <Footer path={"/"}/>
+      <Footer path={"/"} />
     </div>
   )
 }

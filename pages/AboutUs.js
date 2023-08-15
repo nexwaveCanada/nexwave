@@ -23,7 +23,7 @@ export default function AboutUs() {
               Meet <span>Nexwave</span>
             </h1>
             <p>
-              Saudi Arabia&apos;s leading innovative Business Consultancy Firm.
+            We Build Brands that Drive Change.
             </p>
             <p className="text-red-600  text-justify mt-4">
               We&apos;re a full-service ux design and branding agency that rolls up our sleeves
@@ -167,25 +167,18 @@ export default function AboutUs() {
         <div className="whyUsContent mx-4 lg:mx-16 mt-12 mb-12">
           <div>
             <div className="whyUsH1">
-              <h1 className="mx-4 lg:mx-16  text-red-600 font-semibold my-4 md:my-8 text-start">
+              <h1 className="mx-0 lg:mx-16  text-red-600 font-semibold my-4 md:my-8 text-start">
                 Why Us?
               </h1>
             </div>
             <div className="whyUsPoints">
 
-              <p className="w-2/4  text-sm md:text-xl text-white text-left mx-4 lg:mx-16"
+              <p className="md:w-2/4  text-sm md:text-xl text-white text-left mx-0 lg:mx-16 pb-4"
               >What sets Nexwave apart from the rest? We know<span > data, markets, and customers</span> like the back of our hand. Our data-powered strategy and marketing solutions
                 enable you to make
                 <span >well-informed decisions that will drive growth and foster innovation.</span>
               </p>
-              {/* <ul className="mx-4 lg:mx-16  my-4 md:my-8 text-start">
-                <li>Passionate team as you are on your business</li>
-                <li>24/7 support service</li>
-                <li>Client service across the globe</li>
-                <li>Served over and above our scope of service</li>
-                <li>Confidentiality of your Business never compromised</li>
-                <li>Maintains Professionalism</li>
-              </ul> */}
+  
             </div>
           </div>
           <div className="WhyUsbutton">
