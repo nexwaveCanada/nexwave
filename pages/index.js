@@ -28,6 +28,8 @@ export default function Home() {
 
   console.log(isMobile)
 
+  let imagepath1 = !isMobile ? canada : mobFirstImage;
+
   useEffect(() => {
 
     const scrollHandler = () => {
@@ -47,7 +49,7 @@ export default function Home() {
       <Navbar path="" hideNav={hideNavBar} />
       <Header bgImage={bgImage} />
       <div>
-        <ImageBox imagePath={isMobile ? mobFirstImage : canada} text={<>
+        <ImageBox imagePath={imagepath1} text={<>
           Enterprise <br className=' lg:hidden' />Data Solutions
         </>} bgColor='rgba(0, 0, 0, 0.5)'
           discription="Understanding your business data isn't just an advantage; it's a necessity. 
