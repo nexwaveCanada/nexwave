@@ -57,12 +57,12 @@ export default function AboutUs() {
             </p>
             <p className="  text-justify my-4">
               Our dedication extends beyond services. We&apos;re committed to empowering every SME, whether you&apos;re
-              just dipping your toes into the world of data or you're looking to scale new heights. We break down
+              just dipping your toes into the world of data or you&apos;re looking to scale new heights. We break down
               complex processes into digestible steps, making your journey seamless and enjoyable.
             </p>
             <p className=" text-justify my-4">
               So, if you&apos;re seeking a partner who understands the heartbeats of SMEs,
-              cherishes the power of data, and speaks your language, you're in the right place. At Nexwave, we&apos;re not just about business;
+              cherishes the power of data, and speaks your language, you&apos;re in the right place. At Nexwave, we&apos;re not just about business;
               we&apos;re about people, dreams, and the future.
             </p>
             <p className=" text-justify my-4">
