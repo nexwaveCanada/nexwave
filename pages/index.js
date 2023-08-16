@@ -29,7 +29,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   const [hideNavBar, setHideNavBar] = useState(false)
-  const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
+  const isMobile = useMediaQuery({ query: "(max-width: 1024px)" });
   const [mounted, setMounted] = useState(false)
 
 

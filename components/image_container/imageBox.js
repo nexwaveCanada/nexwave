@@ -18,7 +18,7 @@ export default function ImageBox({ imagePath, text, bgColor, discription, id }) 
                     // style={{ backgroundImage: `url(${bgImage.src})`, transform: isTabletOrMobile ? "rotate(90deg)" : "rotate(0deg)" }}
                 > */}
                 <p className={styles.text}>{text}</p>
-                <p className=' pl-0 lg:pl-0 w-full lg:w-2/5 md:w-2/4 md:text-left lg:pt-4 opacity-100
+                <p className=' pl-0 lg:pl-0 w-full lg:w-2/5 md:w-3/4 md:text-left lg:pt-4 opacity-100
                  text-white text-lg  md:text-xl sm:w-3/4 '>
                     {discription}
                 </p>

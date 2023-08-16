@@ -436,7 +436,8 @@ nav {
 
   .subHeading {
     font-size:4vw;
-    margin-left: 20vw;
+    width: 95%;
+    margin-left: 5vw;
   }
 
   .headerContent {
