@@ -23,13 +23,13 @@ function Footer({ path }) {
 						/>
 						<div className="h-8" />
 
-						<li className="text-gray-500 text-md pb-2  hover:text-red-600 cursor-pointer  lg:pl-5">
+						<li className="text-gray-500 text-md pb-2  hover:text-red-600 cursor-pointer ">
 							(090) 373-4495
 						</li>
-						<li className="text-gray-500 text-md pb-2  hover:text-red-600 cursor-pointer  lg:pl-5">
+						<li className="text-gray-500 text-md pb-2  hover:text-red-600 cursor-pointer ">
 							inquire@nexwave.com
 						</li>
-						<li className="text-gray-500 text-md pb-2  hover:text-red-600 cursor-pointer  lg:pl-5">
+						<li className="text-gray-500 text-md pb-2  hover:text-red-600 cursor-pointer ">
 							North York, Toronto, Ontario M9L1N2
 						</li>
 

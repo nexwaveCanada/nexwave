@@ -65,7 +65,7 @@ const Navbar = ({ path, hideNav }) => {
             <nav className={`nav`}>
                 <Link href={"/"}>
                     <Image
-                        className="h-14 w-auto"
+                        className="h-5 md:h-8 w-auto"
                         src={logo}
                         alt=""
                     />
