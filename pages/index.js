@@ -1,7 +1,6 @@
 import { Inter } from 'next/font/google'
 import React, { useState, useEffect } from 'react'
 import Header from '@/components/header/header'
-import ImageBox from '@/components/image_container/imageBox'
 import firstImage from '../public/second.jpeg'
 import secondImage from '../public/third.jpeg'
 import bgImage from '../public/headerLine.svg'
@@ -18,23 +17,26 @@ import NewsLetter from '@/components/NewsLetter'
 import Services from '@/components/Services'
 import WhyUs from '@/components/WhyUs'
 import Partners from '@/components/Partners'
-import { useMediaQuery } from "react-responsive";
+import { useMediaQuery } from "react-responsive"
+import dynamic from 'next/dynamic';
+
+const ImageBox = dynamic(
+  () => import('@/components/image_container/imageBox.js'),
+  { ssr: false }
+);
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   const [hideNavBar, setHideNavBar] = useState(false)
   const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
+  const [mounted, setMounted] = useState(false)
 
-  console.log(isMobile)
-
-  let imagepath1 = !isMobile ? canada : mobFirstImage;
 
   useEffect(() => {
-
+    setMounted(true);
     const scrollHandler = () => {
       const scrollPosition = window.scrollY;
-
       if (scrollPosition >= window.innerHeight / 2) {
         setHideNavBar(true)
       } else {
@@ -45,21 +47,45 @@ export default function Home() {
   })
 
   return (
-    <div className=" bg-green-50 w-full">
+
+   mounted && <div className=" bg-gray-100 w-full">
       <Navbar path="" hideNav={hideNavBar} />
       <Header bgImage={bgImage} />
-      <div>
-        {!isMobile && <ImageBox imagePath={canada} text={<>
-          Enterprise <br className=' lg:hidden' />Data Solutions
-        </>} bgColor='rgba(0, 0, 0, 0.5)'
-          discription="Understanding your business data isn't just an advantage; it's a necessity. 
+      {
+        !isMobile &&
+        <div>
+          <ImageBox imagePath={canada} text={<>
+            Enterprise <br className=' lg:hidden' />Data Solutions
+          </>} bgColor='rgba(0, 0, 0, 0.5)'
+            discription="Understanding your business data isn't just an advantage; it's a necessity. 
           Our custom data solutions transform those numbers into actionable insights, leading you straight to smarter 
           decisions and bigger wins. Dive into clarity, cut through the noise, and let's grow together!"
-          bgImage={line1}
-          id={'incorporation'}
-        />}
-        {
-          isMobile && <ImageBox imagePath={mobFirstImage} text={<>
+            bgImage={line1}
+            id={'incorporation'}
+          />
+          <ImageBox imagePath={firstImage} text={<>
+            Custom <br className=' lg:hidden' />AI Solutions
+          </>} bgColor='rgba(0, 0, 0, 0.5)'
+            discription="Imagine a tool that learns, evolves, and works tirelessly for your success. That's what our custom AI solutions 
+          offer. From simplifying tasks to uncovering hidden opportunities, AI isn't just tech jargon; it's your next business ally. 
+          Ready to harness the power of smart, personalized AI?"
+            bgImage={line2}
+            id={'consultation'}
+          />
+          <ImageBox imagePath={secondImage} text={<>
+            Enterprise<br className=' lg:hidden' /> UX Solutions
+          </>} bgColor='rgba(0, 0, 0, 0.5)'
+            discription="Ever wondered why some digital platforms feel so...right? It’s all about the user experience (UX). Our 
+          Enterprise UX solutions create brand experiences that are intuitive, efficient, and delightful. Turn your digital space into a powerful asset that resonates with your customers."
+            bgImage={line3}
+            id={'financial'}
+
+          />
+        </div>
+      }
+      <div>
+        {isMobile && <div>
+          <ImageBox imagePath={mobFirstImage} text={<>
             Enterprise <br className=' lg:hidden' />Data Solutions
           </>} bgColor='rgba(0, 0, 0, 0.5)'
             discription="Understanding your business data isn't just an advantage; it's a necessity. 
@@ -68,48 +94,25 @@ export default function Home() {
             bgImage={line1}
             id={'incorporation'}
           />
-        }
-
-        {!isMobile && <ImageBox imagePath={firstImage} text={<>
-          Custom <br className=' lg:hidden' />AI Solutions
-        </>} bgColor='rgba(0, 0, 0, 0.5)'
-          discription="Imagine a tool that learns, evolves, and works tirelessly for your success. That's what our custom AI solutions 
+          <ImageBox imagePath={mobSecondImage} text={<>
+            Custom <br className=' lg:hidden' />AI Solutions
+          </>} bgColor='rgba(0, 0, 0, 0.5)'
+            discription="Imagine a tool that learns, evolves, and works tirelessly for your success. That's what our custom AI solutions 
           offer. From simplifying tasks to uncovering hidden opportunities, AI isn't just tech jargon; it's your next business ally. 
           Ready to harness the power of smart, personalized AI?"
-          bgImage={line2}
-          id={'consultation'}
-        />}
-
-        {isMobile && <ImageBox imagePath={mobSecondImage} text={<>
-          Custom <br className=' lg:hidden' />AI Solutions
-        </>} bgColor='rgba(0, 0, 0, 0.5)'
-          discription="Imagine a tool that learns, evolves, and works tirelessly for your success. That's what our custom AI solutions 
-          offer. From simplifying tasks to uncovering hidden opportunities, AI isn't just tech jargon; it's your next business ally. 
-          Ready to harness the power of smart, personalized AI?"
-          bgImage={line2}
-          id={'consultation'}
-        />}
-
-        {!isMobile && <ImageBox imagePath={secondImage} text={<>
-          Enterprise<br className=' lg:hidden' /> UX Solutions
-        </>} bgColor='rgba(0, 0, 0, 0.5)'
-          discription="Ever wondered why some digital platforms feel so...right? It’s all about the user experience (UX). Our 
+            bgImage={line2}
+            id={'consultation'}
+          />
+          <ImageBox imagePath={mobThirdImage} text={<>
+            Enterprise<br className=' lg:hidden' /> UX Solutions
+          </>} bgColor='rgba(0, 0, 0, 0.5)'
+            discription="Ever wondered why some digital platforms feel so...right? It’s all about the user experience (UX). Our 
           Enterprise UX solutions create brand experiences that are intuitive, efficient, and delightful. Turn your digital space into a powerful asset that resonates with your customers."
-          bgImage={line3}
-          id={'financial'}
+            bgImage={line3}
+            id={'financial'}
+          />
 
-        />}
-
-        {isMobile && <ImageBox imagePath={mobThirdImage} text={<>
-          Enterprise<br className=' lg:hidden' /> UX Solutions
-        </>} bgColor='rgba(0, 0, 0, 0.5)'
-          discription="Ever wondered why some digital platforms feel so...right? It’s all about the user experience (UX). Our 
-          Enterprise UX solutions create brand experiences that are intuitive, efficient, and delightful. Turn your digital space into a powerful asset that resonates with your customers."
-          bgImage={line3}
-          id={'financial'}
-
-        />}
-
+        </div>}
         <Services />
         <WhyUs />
       </div>

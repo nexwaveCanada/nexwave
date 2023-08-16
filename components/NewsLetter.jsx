@@ -8,7 +8,7 @@ function NewsLetter() {
 	return (
 		<div className=" bg-red-600 px-8 py-16 md:py-0 md:px-16  flex lg:flex-row flex-col lg:justify-between justify-center items-center lg:h-96 lg:px-32 lg:py-20">
 			<div className=" w-full lg:w-1/2 flex justify-center">
-			<Image src={supportImage} height={100} width={100} className=' h-64 w-auto pb-7 lg:pt-0 md:pt-7 lg:pb-0'/>
+			<Image src={supportImage} height={100} width={100} className=' h-64 w-auto pb-7 lg:pt-0 md:pt-7 lg:pb-0' alt="support image"/>
 
 				{/* <form className="pt-3 px-4 md:px-0">
 						<input className="border border-white py-1.5 px-4 focus:outline-none focus:border-black bg-transparent text-white placeholder-slate-800 w-full md:w-1/2" placeholder="Your Name" />
