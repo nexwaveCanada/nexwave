@@ -1,11 +1,11 @@
 import Footer from "@/components/Footer";
-import Navbar from "@/components/Navbar";
-import NewsLetter from "@/components/NewsLetter";
-import Partners from "@/components/Partners";
+import Navbar from "@/components/Navbar"
+import Partners from "@/components/Partners"
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
-import { useMediaQuery } from "react-responsive";
+import React from "react"
+import { useMediaQuery } from "react-responsive"
+import pr1 from "../public/pr1.jpg"
 
 export default function AboutUs() {
   const isDesktopOrLaptop = useMediaQuery({
@@ -28,51 +28,46 @@ export default function AboutUs() {
             <p className=" text-justify mt-4 text-black">
               Hello there! Welcome to Nexwave. We&apos;re not just another tech company; we&apos;re your partners,
               bringing the magic of data right to your doorstep. Why? Because <span className=" text-red-600 font-semibold">
-              we believe in the potential of every small and medium-sized enterprise, just like yours.</span>
+                we believe in the potential of every small and medium-sized enterprise, just like yours.</span>
               <br />
               Founded on the principles of simplicity, clarity, and genuine care, Nexwave is here to demystify the buzzwords and jargon, turning them into
               tangible results for your business.
               We&apos;re passionate about understanding your needs, your dreams,
-              and the challenges you face daily. That&apos;s why we&apos;ve rallied a team of ML wizards, AI enthusiasts, 
+              and the challenges you face daily. That&apos;s why we&apos;ve rallied a team of ML wizards, AI enthusiasts,
               data engineers, and storytellers to ensure <span className=" text-red-600 font-semibold">
-              you get the best of both worlds: technology and marketing.
+                you get the best of both worlds: technology and marketing.
               </span>
             </p>
           </div>
           <div className="aboutUsMainImg">
             <Image
-              src="/pr1.jpg"
+              src={pr1}
               width={400}
               height={400}
               className="BeaconImg"
             />
           </div>
           <div className="aboutUsP">
-            <p className="text-red-600  text-justify my-4">
-              Our process at the core is a human-centered design approach. We immerse ourselves in your customers world
-              to better understand their needs and pain points, creating innovative solutions that elevate their experience
-              with your brand or product
+            <p className="  text-justify my-4">
+              But why data, you ask? Well, in this ever-evolving digital landscape,
+              data is the silent hero behind successful decisions.
+              It&apos;s like the compass guiding ships safely to the shore. While data is everywhere,
+              its true potential often remains hidden. At Nexwave, <span className="text-red-600 font-semibold  text-justify my-4">we&apos;re here to unveil that treasure for you.</span> We delve deep into numbers,
+              transforming them into stories and insights that can pave the path for your business&apos;s growth.
             </p>
-            <p className="text-red-600  text-justify my-4">
-              We are continually questioning and eternally curious, whether watching the waves of the wider world,
-              examining the technical details of a production or getting inside the minds of consumers
+            <p className="  text-justify my-4">
+              Our dedication extends beyond services. We&apos;re committed to empowering every SME, whether you&apos;re
+              just dipping your toes into the world of data or you're looking to scale new heights. We break down
+              complex processes into digestible steps, making your journey seamless and enjoyable.
             </p>
-            {/* <p className="text-red-600  text-justify my-4">
-              Despite their growth and success, the team at Beacon Management
-              Consultants remained committed to their founding principles of
-              integrity, professionalism, and exceptional service. They
-              continued to invest in their team members, providing ongoing
-              training and development to ensure that they could offer the best
-              possible service to their clients.
+            <p className=" text-justify my-4">
+              So, if you&apos;re seeking a partner who understands the heartbeats of SMEs,
+              cherishes the power of data, and speaks your language, you're in the right place. At Nexwave, we&apos;re not just about business;
+              we&apos;re about people, dreams, and the future.
             </p>
-            <p className="text-red-600  text-justify my-4">
-              Today, Beacon Management Consultants is one of the most esteemed
-              auditing and accounting firms in the industry, known for their
-              exceptional service, deep expertise, and unwavering commitment to
-              their client&apos;s success. They are proud of the relationships
-              they have built over the years and look forward to continuing to
-              serve their clients for many years to come.
-            </p> */}
+            <p className=" text-justify my-4">
+              Come, be a part of our community. Let&apos;s grow, learn, and flourish together!
+            </p>
           </div>
         </div>
       </div>
@@ -87,9 +82,9 @@ export default function AboutUs() {
           </div>
           <div className="cardDesc">
             <p className="text-red-600  text-justify my-4">
-              To demystify the world of data and marketing for SMEs, empowering them with actionable insights and solutions that drive growth.
-              We commit to guiding every business, whether novice or expert, on their unique data journey,
-              providing personalized support every step of the way.
+              To level the playing field by equipping SMEs with data-powered solutions previously reserved for industry giants.
+              We are here to guide, support, and empower every business,
+              regardless of size, on their journey to harness the transformative power of data.
             </p>
           </div>
         </div>
@@ -103,9 +98,10 @@ export default function AboutUs() {
           </div>
           <div className="cardDesc cardDesc2">
             <p className="text-red-600  text-justify my-4">
-              To be the go-to destination for SMEs, transforming them into data-driven leaders in their respective fields.
-              We envision a future where every SME effortlessly
-              integrates data into their decision-making, setting new benchmarks of success and innovation..
+              To spearhead a future where every SME, irrespective of its size,
+              leverages data-driven strategies for growth and innovation.
+              Our vision is a business landscape where data is the equalizing force,
+              setting new standards of success for all
             </p>
           </div>
         </div>
@@ -113,56 +109,26 @@ export default function AboutUs() {
 
       <div className="aboutUsContainer mx-4 lg:mx-16 mt-12 mb-12">
         <div className="aboutUsMain">
-          <div className="aboutUsMainImg">
+          {/* <div className="aboutUsMainImg">
             <Image
               src="/pr2.jpg"
               width={400}
               height={400}
               className="BeaconImg"
             />
-          </div>
-
+          </div> */}
           <div className="aboutUsMainH1">
             <h1 className="MeetBeacon">
-              Our Clients <span>Inspire Us</span>
+              Core  <span>Values</span>
             </h1>
-            {/* <p>
-              Saudi Arabia's leading innovative Accounting & Auditing services.
-            </p> */}
-            <p className="text-red-600  text-justify mt-4 client">
-              At Beacon Management Consultants, we are proud to have helped
-              businesses in Saudi Arabia grow and flourish through our services.
-              We have had the privilege of working with some of the most
-              innovative and forward-thinking companies in the country, and we
-              are honored to have played a small part in their success.
-            </p>
           </div>
           <div className="aboutUsP">
-            <p className="text-red-600  text-justify lg:my-4">
-              We know that running a business in Saudi Arabia is not easy,
-              especially in today&apos;s fast-paced and constantly evolving
-              economy. That&apos;s why we are grateful for the trust that our
-              clients have placed in us to help them navigate the complexities
-              of accounting, auditing, tax, and regulatory compliance. We take
-              that responsibility seriously and work tirelessly to provide our
-              clients with the support and guidance they need to achieve their
-              goals.
-            </p>
-            <p className="text-red-600  text-justify my-4">
-              We are also grateful for the opportunity to work with so many
-              talented and dedicated professionals in Saudi Arabia. Our team
-              members have deep expertise in a wide range of industries, and
-              they bring a wealth of knowledge and experience to every
-              engagement. Together, we have helped our clients overcome
-              challenges, seize opportunities, and achieve their full
-              potential.
-            </p>
-            <p className="text-red-600  text-justify my-4">
-              As we reflect on our journey so far, we are filled with gratitude
-              for the support of our clients, partners, and colleagues in Saudi
-              Arabia. We are dedicated to delivering great service and value to
-              our clients and helping this country thrive.
-            </p>
+            <TitleData title="Simplicity in Solutions" subtitle="Breaking down complex data and technologies into easy-to-understand insights for our clients." />
+            <TitleData title="Client Partnership" subtitle="We don&apos;t just provide services; we collaborate, ensuring our client&apos;s goals align with ours." />
+            <TitleData title="Authenticity" subtitle="Always genuine, always transparent. We keep our communication straightforward and real." />
+            <TitleData title="Continuous Learning" subtitle="The tech world is ever-evolving, and so are we. We commit to staying updated to serve our clients better." />
+            <TitleData title="Empowerment" subtitle="We empower SMEs with the right tools and knowledge, enabling them to harness the full potential of data." />
+            <TitleData title="Integrity and Trust" subtitle="Doing the right thing always, even when no one is watching. Our client&apos;s trust is our most cherished asset." />
           </div>
         </div>
       </div>
@@ -193,3 +159,24 @@ export default function AboutUs() {
     </div>
   );
 }
+
+
+
+
+
+
+function TitleData(props) {
+  return (
+    <div>
+      <p className="  text-justify my-4">
+        <span className="font-bold text-lg">{props.title}</span>
+        <br />
+        {props.subtitle}
+      </p>
+
+    </div>
+  )
+}
+
+
+
