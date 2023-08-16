@@ -26,15 +26,16 @@ export default function AboutUs() {
               <span className=" font-semibold">Simplifying Data and Marketing for SMEs.</span>
             </p>
             <p className=" text-justify mt-4 text-black">
-              Hello there! Welcome to Nexwave. We're not just another tech company; we&apos;re your partners,
+              Hello there! Welcome to Nexwave. We&apos;re not just another tech company; we&apos;re your partners,
               bringing the magic of data right to your doorstep. Why? Because <span className=" text-red-600 font-semibold">
-                we believe in the potential of every small and medium-sized enterprise, just like yours.</span>
+              we believe in the potential of every small and medium-sized enterprise, just like yours.</span>
               <br />
               Founded on the principles of simplicity, clarity, and genuine care, Nexwave is here to demystify the buzzwords and jargon, turning them into
               tangible results for your business.
               We&apos;re passionate about understanding your needs, your dreams,
-              and the challenges you face daily. That&apos;s why we&apos;ve rallied a team of ML wizards, AI enthusiasts, data engineers, and storytellers to ensure <span className=" text-red-600 font-semibold">
-                you get the best of both worlds: technology and marketing.
+              and the challenges you face daily. That&apos;s why we&apos;ve rallied a team of ML wizards, AI enthusiasts, 
+              data engineers, and storytellers to ensure <span className=" text-red-600 font-semibold">
+              you get the best of both worlds: technology and marketing.
               </span>
             </p>
           </div>
@@ -176,13 +177,11 @@ export default function AboutUs() {
               </h1>
             </div>
             <div className="whyUsPoints">
-
               <p className="md:w-2/4  text-sm md:text-xl text-white text-left mx-0 lg:mx-16 pb-4"
               >What sets Nexwave apart from the rest? We know<span > data, markets, and customers</span> like the back of our hand. Our data-powered strategy and marketing solutions
                 enable you to make
                 <span >well-informed decisions that will drive growth and foster innovation.</span>
               </p>
-
             </div>
           </div>
           <div className="WhyUsbutton">
