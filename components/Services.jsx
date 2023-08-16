@@ -37,14 +37,14 @@ export default function Services() {
 
 
     return (
-        <div className="flex flex-col items-left lg:justify-center w-auto h-screen sticky top-0 bg-cover bg-gray-100 scroll-smooth" id='services'>
+        <div className="flex flex-col items-left lg:justify-center w-auto lg:h-screen sticky top-0 bg-cover bg-gray-100 scroll-smooth" id='services'>
             <h1 className="ml-4 lg:ml-32 pb-8 md:pb-16  text-red-600 font-semibold pt-14 lg:pt-0   ">
                 FEATURED SERVICES
             </h1>
             <div className='lg:hidden flex flex-row justify-center overflow-x-scroll mb-10 pl-0'>
                 <div className={
                     clsx(
-                        "flex justify-center items-center align-middle p-4 font-bold w-52",
+                        "flex justify-center items-center align-middle p-4 font-bold w-52 md:w-full",
                         service === "Tech" ? "text-white bg-red-600 " : "text-gray-400 "
                     )
                 }
@@ -54,7 +54,7 @@ export default function Services() {
                 </div>
                 <div className={
                     clsx(
-                        "flex justify-center items-center align-middle p-4 font-bold w-52",
+                        "flex justify-center items-center align-middle p-4 font-bold w-52 md:w-full",
                         service === "Marketing" ? "text-white bg-red-600" : "text-gray-400"
                     )
                 }
@@ -116,14 +116,14 @@ export default function Services() {
 
 
                 </ul>
-                <ol className="pl-4 md:pl-16 w-full md:w-2/3 pb-10 lg:pb-0 pt-4">
+                <ol className="pl-4 md:pl-16 w-full md:w-2/3 pb-10 lg:pb-0 pt-4 flex flex-col items-center ">
                     {/* <li className="text-xl lg:text-4xl text-red-600 font-bold pb-2 md:pb-4">{d1}</li> */}
-                    <div className="pt-0 lg:mt-0 ml-4 md:ml-16">
-                        <li className="text-lg lg:text-2xl font-bold pb-2 lg:pb-4 text-teal-600">{d1}</li>
-                        <li className="text-lg lg:text-2xl font-bold pb-2 lg:pb-4 text-teal-600">{d2}</li>
-                        <li className="text-lg lg:text-2xl text-teal-600 font-bold pb-2 lg:pb-4">{d3}</li>
-                        <li className="text-lg lg:text-2xl text-teal-600 font-bold pb-2 lg:pb-4">{d4}</li>
-                        <li className="text-lg lg:text-2xl text-teal-600 font-bold pb-2 lg:pb-4">{d5}</li>
+                    <div className="pt-0 lg:mt-0 ml-4 lg:ml-16">
+                        <li className="text-lg lg:text-2xl md:text-xl font-bold pb-2 lg:pb-4 text-teal-600">{d1}</li>
+                        <li className="text-lg lg:text-2xl font-bold pb-2 md:text-xl lg:pb-4 text-teal-600">{d2}</li>
+                        <li className="text-lg lg:text-2xl text-teal-600 font-bold md:text-xl pb-2 lg:pb-4">{d3}</li>
+                        <li className="text-lg lg:text-2xl text-teal-600 font-bold md:text-xl pb-2 lg:pb-4">{d4}</li>
+                        <li className="text-lg lg:text-2xl text-teal-600 font-bold md:text-xl pb-2 lg:pb-4">{d5}</li>
                         {/* <li className="text-lg lg:text-2xl text-teal-600 font-bold pb-2 lg:pb-4">{d6}</li>
                         <li className="text-lg lg:text-2xl text-teal-600 font-bold pb-2 lg:pb-4">{d7}</li>
                         <li className="text-lg lg:text-2xl text-teal-600 font-bold pb-2 lg:pb-4">{d8}</li>

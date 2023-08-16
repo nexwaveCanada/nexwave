@@ -14,14 +14,14 @@ export default function WhyUs() {
                         data-aos-duration="1500">Why Nexwave?</h1>
                 </div>
                 <div className="p-4 md:p-16 flex justify-center flex-col w-full items-center">
-                    <p className="w-full lg:w-3/4  text-sm md:text-3xl text-white text-left " data-aos="fade-up"
+                    <p className="w-full lg:w-3/4  text-md md:text-3xl text-white text-left " data-aos="fade-up"
                         data-aos-easing="linear"
                         data-aos-duration="1500">What sets Nexwave apart from the rest? We know<span className=' text-teal-600'> data, markets, and customers</span> like the back of our hand. Our data-powered strategy and marketing solutions 
                         enable you to make 
                         <span className=' text-teal-600'> well-informed decisions that will drive growth and foster innovation.</span>
                         </p>
                     <div className="h-4 md:h-8"></div>
-                    <p className="w-full lg:w-3/4  text-sm md:text-3xl text-white text-left " data-aos="fade-up"
+                    <p className="w-full lg:w-3/4  text-md md:text-3xl text-white text-left " data-aos="fade-up"
                         data-aos-easing="linear"
                         data-aos-duration="1500">With a comprehensive skill set that spans ML engineers, data engineers, AI engineers, and marketers, we have the expertise to 
                         <span className=' text-teal-600'> empower your business and elevate your brand.</span>
