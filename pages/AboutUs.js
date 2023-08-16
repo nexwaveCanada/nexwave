@@ -20,18 +20,22 @@ export default function AboutUs() {
         <div className="aboutUsMain">
           <div className="aboutUsMainH1">
             <h1 className="MeetBeacon">
-              Meet <span>Nexwave</span>
+              Nextwave <span>About Us</span>
             </h1>
             <p>
-            We Build Brands that Drive Change.
+              <span className=" font-semibold">Simplifying Data and Marketing for SMEs.</span>
             </p>
-            <p className="text-red-600  text-justify mt-4">
-              We&apos;re a full-service ux design and branding agency that rolls up our sleeves
-              and works closely with our clients.
-              Together, we craft unforgettable user experiences that span all platforms and touchpoints of
-              brands. We go
-              through a detailed process of brainstorming, designing, and developing strategies
-              that revamp how users interact with their products or services, delivering fantastic results.
+            <p className=" text-justify mt-4 text-black">
+              Hello there! Welcome to Nexwave. We're not just another tech company; we&apos;re your partners,
+              bringing the magic of data right to your doorstep. Why? Because <span className=" text-red-600 font-semibold">
+                we believe in the potential of every small and medium-sized enterprise, just like yours.</span>
+              <br />
+              Founded on the principles of simplicity, clarity, and genuine care, Nexwave is here to demystify the buzzwords and jargon, turning them into
+              tangible results for your business.
+              We&apos;re passionate about understanding your needs, your dreams,
+              and the challenges you face daily. That&apos;s why we&apos;ve rallied a team of ML wizards, AI enthusiasts, data engineers, and storytellers to ensure <span className=" text-red-600 font-semibold">
+                you get the best of both worlds: technology and marketing.
+              </span>
             </p>
           </div>
           <div className="aboutUsMainImg">
@@ -82,10 +86,9 @@ export default function AboutUs() {
           </div>
           <div className="cardDesc">
             <p className="text-red-600  text-justify my-4">
-              Trusted partner of valuable client’s in Accounting, Taxation,
-              Internal/External Audit, Law Compliance and to open doors to have
-              efficient business operation thus achieving the bottom line cents
-              at reasonable.
+              To demystify the world of data and marketing for SMEs, empowering them with actionable insights and solutions that drive growth.
+              We commit to guiding every business, whether novice or expert, on their unique data journey,
+              providing personalized support every step of the way.
             </p>
           </div>
         </div>
@@ -99,8 +102,9 @@ export default function AboutUs() {
           </div>
           <div className="cardDesc cardDesc2">
             <p className="text-red-600  text-justify my-4">
-              To become a trusted team of professionals committed to fostering
-              the growth of our client&apos;s businesses and their teams.
+              To be the go-to destination for SMEs, transforming them into data-driven leaders in their respective fields.
+              We envision a future where every SME effortlessly
+              integrates data into their decision-making, setting new benchmarks of success and innovation..
             </p>
           </div>
         </div>
@@ -178,7 +182,7 @@ export default function AboutUs() {
                 enable you to make
                 <span >well-informed decisions that will drive growth and foster innovation.</span>
               </p>
-  
+
             </div>
           </div>
           <div className="WhyUsbutton">

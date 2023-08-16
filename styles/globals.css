@@ -137,14 +137,14 @@ nav {
 
 .MeetBeacon {
   align-self: flex-start;
-  font-size: 64px;
+  font-size: 54px;
   font-weight: 700;
 }
 
 .aboutUsMainH1 p {
   font-size: 22px;
   font-weight: 400;
-  color: #FF0000;
+  color: #000000;
 }
 
 /* .aboutUsMainH1 p:nth-child(2){
