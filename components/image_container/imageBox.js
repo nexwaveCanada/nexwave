@@ -8,7 +8,6 @@ export default function ImageBox({ imagePath, text, bgColor, discription, bgImag
         backgroundColor: bgColor
 
     }
-    console.log(imagePath.src);
     return (
         <div 
         style={{ backgroundImage: `url(${imagePath.src})`, }} 

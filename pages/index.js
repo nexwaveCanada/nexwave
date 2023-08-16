@@ -49,7 +49,7 @@ export default function Home() {
       <Navbar path="" hideNav={hideNavBar} />
       <Header bgImage={bgImage} />
       <div>
-        <ImageBox imagePath={imagepath1} text={<>
+        {!isMobile && <ImageBox imagePath={canada} text={<>
           Enterprise <br className=' lg:hidden' />Data Solutions
         </>} bgColor='rgba(0, 0, 0, 0.5)'
           discription="Understanding your business data isn't just an advantage; it's a necessity. 
@@ -57,9 +57,20 @@ export default function Home() {
           decisions and bigger wins. Dive into clarity, cut through the noise, and let's grow together!"
           bgImage={line1}
           id={'incorporation'}
-        />
+        />}
+        {
+          isMobile && <ImageBox imagePath={mobFirstImage} text={<>
+            Enterprise <br className=' lg:hidden' />Data Solutions
+          </>} bgColor='rgba(0, 0, 0, 0.5)'
+            discription="Understanding your business data isn't just an advantage; it's a necessity. 
+            Our custom data solutions transform those numbers into actionable insights, leading you straight to smarter 
+            decisions and bigger wins. Dive into clarity, cut through the noise, and let's grow together!"
+            bgImage={line1}
+            id={'incorporation'}
+          />
+        }
 
-        <ImageBox imagePath={isMobile ? mobSecondImage : firstImage} text={<>
+        {!isMobile && <ImageBox imagePath={firstImage} text={<>
           Custom <br className=' lg:hidden' />AI Solutions
         </>} bgColor='rgba(0, 0, 0, 0.5)'
           discription="Imagine a tool that learns, evolves, and works tirelessly for your success. That's what our custom AI solutions 
@@ -67,9 +78,19 @@ export default function Home() {
           Ready to harness the power of smart, personalized AI?"
           bgImage={line2}
           id={'consultation'}
-        />
+        />}
 
-        <ImageBox imagePath={isMobile ? mobThirdImage : secondImage} text={<>
+        {isMobile && <ImageBox imagePath={mobSecondImage} text={<>
+          Custom <br className=' lg:hidden' />AI Solutions
+        </>} bgColor='rgba(0, 0, 0, 0.5)'
+          discription="Imagine a tool that learns, evolves, and works tirelessly for your success. That's what our custom AI solutions 
+          offer. From simplifying tasks to uncovering hidden opportunities, AI isn't just tech jargon; it's your next business ally. 
+          Ready to harness the power of smart, personalized AI?"
+          bgImage={line2}
+          id={'consultation'}
+        />}
+
+        {!isMobile && <ImageBox imagePath={secondImage} text={<>
           Enterprise<br className=' lg:hidden' /> UX Solutions
         </>} bgColor='rgba(0, 0, 0, 0.5)'
           discription="Ever wondered why some digital platforms feel so...right? It’s all about the user experience (UX). Our 
@@ -77,7 +98,17 @@ export default function Home() {
           bgImage={line3}
           id={'financial'}
 
-        />
+        />}
+
+        {isMobile && <ImageBox imagePath={mobThirdImage} text={<>
+          Enterprise<br className=' lg:hidden' /> UX Solutions
+        </>} bgColor='rgba(0, 0, 0, 0.5)'
+          discription="Ever wondered why some digital platforms feel so...right? It’s all about the user experience (UX). Our 
+          Enterprise UX solutions create brand experiences that are intuitive, efficient, and delightful. Turn your digital space into a powerful asset that resonates with your customers."
+          bgImage={line3}
+          id={'financial'}
+
+        />}
 
         <Services />
         <WhyUs />
