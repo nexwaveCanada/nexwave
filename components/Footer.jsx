@@ -24,7 +24,7 @@ function Footer({ path }) {
 						<div className="h-8" />
 
 						<li className="text-gray-500 text-md pb-2  hover:text-red-600 cursor-pointer ">
-							(090) 373-4495
+							+1 (416) 824-4786
 						</li>
 						<li className="text-gray-500 text-md pb-2  hover:text-red-600 cursor-pointer ">
 							inquire@nexwave.com
