@@ -3,7 +3,7 @@ import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import qrCode from '/public/qrcode.png'
 import Image from "next/image";
-import React, { useRef, useState,useEffect } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import Popup from "reactjs-popup";
 
 export default function ContactUs() {
@@ -75,14 +75,14 @@ export default function ContactUs() {
               <h1>Get in touch</h1>
             </div>
             <div className="contactDesc pb-7">
-              <p className="text-green-900  text-justify mt-4">
-              Take the first step towards a data-driven future. 
-              Join Nexwave and unlock the power of data to scale your business and make a 
-              lasting impact on your customers.
-              Together, we&apos;ll transform your business into a thriving and customer-centric brand.
+              <p className=" text-justify mt-4">
+                Take the first step towards a data-driven future.
+                Join Nexwave and unlock the power of data to scale your business and make a
+                lasting impact on your customers.
+                Together, we&apos;ll transform your business into a thriving and customer-centric brand.
               </p>
-              <p className="text-green-900  text-justify mt-4">
-              Contact us now to embark on this exciting journey of growth and success!.
+              <p className="  text-justify mt-4">
+                Contact us now to embark on this exciting journey of growth and success!.
               </p>
             </div>
             <div className="flex flex-row justify-center items-center">
@@ -106,16 +106,16 @@ export default function ContactUs() {
               <div className="formName">
                 <div className="firstName">
                   <h1>First Name</h1>
-                  <input type="text" placeholder="John" name="from_name" required/>
+                  <input type="text" placeholder="John" name="from_name" required />
                 </div>
                 <div className="lirstName">
                   <h1>Last Name</h1>
-                  <input type="text" placeholder="Doe" name="last_name" required/>
+                  <input type="text" placeholder="Doe" name="last_name" required />
                 </div>
               </div>
               <div className="companyName">
                 <h1>Company Name</h1>
-                <input type="text" placeholder="Random Company" name="company_name" required/>
+                <input type="text" placeholder="Random Company" name="company_name" required />
               </div>
               <div className="email">
                 <h1>Email</h1>
@@ -123,7 +123,7 @@ export default function ContactUs() {
               </div>
               <div className="number">
                 <h1>Phone Number</h1>
-                <input type="text" placeholder="(+966) 7865322" name="phNumber" required/>
+                <input type="text" placeholder="(+966) 7865322" name="phNumber" required />
               </div>
 
               <div className="message">
@@ -169,7 +169,7 @@ export default function ContactUs() {
         <ContactForm />
       </div> */}
       <Address />
-      <Footer path={'/'}/>
+      <Footer path={'/'} />
     </div>
   );
 }
