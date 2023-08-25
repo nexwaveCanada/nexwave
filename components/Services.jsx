@@ -25,14 +25,14 @@ export default function Services() {
         d2 = "Customized AI Solutions"
         d3 = "Business Intelligence and Visualization"
         d4 = "Website & App Development"
-        d5 = "Automation (Business Automation Solutions/ Business Process Automation/Business Process Optimization)"
+        d5 = "Business Automation Solutions"
     }
     if (service === "Marketing") {
         d1 = "Branding"
         d2 = "Digital Marketing"
-        d3 = "Design."
+        d3 = "Design Strategy"
         d4 = "User Experience Enhancement"
-        d5 = "Content"
+        d5 = "Content Strategy"
     }
 
 
@@ -49,7 +49,7 @@ export default function Services() {
                     )
                 }
                     onClick={() => setService("Tech")}
-                >Technology<br /> Solutions
+                >Technology<br />
                     {/* and Startup Assistance */}
                 </div>
                 <div className={
@@ -59,7 +59,7 @@ export default function Services() {
                     )
                 }
                     onClick={() => setService("Marketing")}
-                >Marketing<br /> Solutions</div>
+                >Marketing<br /> </div>
                 {/* <div className={
                     clsx(
                         "flex justify-center items-center align-middle p-4 font-bold w-52",
@@ -86,7 +86,7 @@ export default function Services() {
                             service === "Tech" ? "text-red-600" : "text-gray-400"
                         )}
                         onClick={() => setService("Tech")}
-                    >Technology<br /> Solutions<br />
+                    >Technology<br /> <br />
                         {/* and<br />Startup Assistance */}
                     </li>
                     <li
@@ -95,7 +95,7 @@ export default function Services() {
                             service === "Marketing" ? "text-red-600" : "text-gray-400"
                         )}
                         onClick={() => setService("Marketing")}
-                    >Marketing<br /> Solutions
+                    >Marketing<br /> 
                     </li>
                     {/* <li
                         className={clsx(
