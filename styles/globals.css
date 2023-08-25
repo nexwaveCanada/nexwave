@@ -127,12 +127,14 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: start;
   width: 46%;
 }
 
 .aboutUsMainH1 span {
+  
   color: #FF0000;
+  align-self: flex-start;
 }
 
 .MeetBeacon {

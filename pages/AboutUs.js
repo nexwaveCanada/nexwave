@@ -20,11 +20,12 @@ export default function AboutUs() {
         <div className="aboutUsMain">
           <div className="aboutUsMainH1">
             <h1 className="MeetBeacon">
-              Nextwave <span>About Us</span>
+              <span>About Us</span>
             </h1>
-            <p>
-              <span className=" font-semibold">Simplifying Data and Marketing for SMEs.</span>
-            </p>
+            
+              <p>
+                <span className=" font-semibold flex justify-start">Simplifying Data and Marketing for SMEs.</span>
+              </p>
             <p className=" text-justify mt-4 text-black">
               Hello there! Welcome to Nexwave. We&apos;re not just another tech company; we&apos;re your partners,
               bringing the magic of data right to your doorstep. Why? Because <span className=" text-red-600 font-semibold">
