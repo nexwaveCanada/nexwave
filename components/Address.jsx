@@ -24,7 +24,7 @@ export default function Address() {
               title="Contact"
               subtitle={
                 <span>
-                  (090) 373-4495
+                 +1 (416) 824-4786
                   {/* <br />+ 966 539 067 414
                   <br />+ 966 531 170 957 */}
                 </span>
