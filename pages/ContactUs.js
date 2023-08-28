@@ -32,24 +32,24 @@ export default function ContactUs() {
   const form = useRef();
 
   const sendEmail = (e) => {
-    e.preventDefault();
-    setIsLoading(true);
-    console.log(form.current);
-    emailjs
-      .sendForm('service_dqqvrig', 'template_9mza6hh', form.current, 'IxZZgHa1tCoeypQM0')
-      .then((result) => {
-        setMessage("Submitted successfully!")
-        console.log(result.text);
-        setIsLoading(false);
-        setIsOpen(!isOpen);
-        form.current.reset();
-      })
-      .catch((error) => {
-        setMessage("Something went wrong please try again!")
-        console.log(error.text);
-        setIsLoading(false);
-        setIsOpen(!isOpen);
-      });
+    // e.preventDefault();
+    // setIsLoading(true);
+    // console.log(form.current);
+    // emailjs
+    //   .sendForm('service_dqqvrig', 'template_9mza6hh', form.current, 'IxZZgHa1tCoeypQM0')
+    //   .then((result) => {
+    //     setMessage("Submitted successfully!")
+    //     console.log(result.text);
+    //     setIsLoading(false);
+    //     setIsOpen(!isOpen);
+    //     form.current.reset();
+    //   })
+    //   .catch((error) => {
+    //     setMessage("Something went wrong please try again!")
+    //     console.log(error.text);
+    //     setIsLoading(false);
+    //     setIsOpen(!isOpen);
+    //   });
   };
 
   return (
