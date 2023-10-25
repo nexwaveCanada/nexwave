@@ -48,7 +48,7 @@ export default function Home() {
 
   return (
 
-   mounted && <div className=" bg-gray-100 w-full">
+   mounted && <div className=" bg-gray-800 w-full">
       <Navbar path="" hideNav={hideNavBar} />
       <Header bgImage={bgImage} />
       {

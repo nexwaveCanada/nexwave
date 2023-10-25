@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React, { useState, useEffect, useRef } from "react";
 import NavItem from "./Navitem";
-import logo from 'public/logo-black.png'
+import logo from 'public/brands/Nexwave---White.png'
 import Image from "next/image";
 import { useMediaQuery } from 'react-responsive'
 
@@ -59,13 +59,13 @@ const Navbar = ({ path, hideNav }) => {
 
    
     return (
-        <header id='navbar' 
+        <header id='' 
          style={!hideNav||isTabletOrMobile || scrollDirection == "up"?stylesCustom.active : stylesCustom.hidden}
          >
-            <nav className={`nav`}>
+            <nav className="nav bg-black text-gray-300  shadow-lg ">
                 <Link href={"/"}>
                     <Image
-                        className="h-5 md:h-8 w-auto md:my-0 my-4"
+                        className="h-10 md:h-20 w-auto md:my-0 my-4"
                         src={logo}
                         alt=""
                     />

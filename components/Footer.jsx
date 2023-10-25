@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import logo from 'public/logo-black.png'
+import logo from 'public/brands/Nexwave---White.png'
 import { FaInstagram } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
@@ -11,7 +11,7 @@ import Link from "next/link";
 function Footer({ path }) {
 	return (
 		<>
-			<div className="bg-gray-100 h-1/2 w-full flex md:flex-row flex-col justify-around items-start lg:p-12 p-15">
+			<div className="bg-gray-800 text-gray-300 h-1/2 w-full flex md:flex-row flex-col justify-around items-start lg:p-12 p-15">
 				<div className="p-5 ">
 					<ul>
 						<Image
@@ -88,7 +88,7 @@ function Footer({ path }) {
 					</ul>
 				</div>
 			</div>
-			<div className="flex flex-col lg:flex-row items-center lg:items-end w-full px-4 lg:pr-32 md:justify-end justify-center bg-gray-100">
+			<div className="bg-gray-800 flex flex-col lg:flex-row items-center lg:items-end w-full px-4 lg:pr-32 md:justify-end justify-center bg-gray-100">
 				<div className="text-teal-600 font-bold md:text-xl uppercase text-sm ">
 					Connect with us on
 				</div>
@@ -107,8 +107,8 @@ function Footer({ path }) {
 					</li>
 				</ul>
 			</div>
-			<div className="flex flex-col md:flex-row text-center bg-gray-100 px-4 md:px-32 py-4 md:py-8 justify-between">
-				<h1 className="text-gray-800 ">
+			<div className="flex flex-col md:flex-row text-center bg-gray-800 px-4 md:px-32 py-4 md:py-8 justify-between">
+				<h1 className="text-gray-200 ">
 					© 2023 by Nexwave | All Right Reserved | Powered by <a href="https://procube.cx/" className="  font-bold">procube.cx</a>
 				</h1>
 				<h1 className="text-red-600 font-bold uppercase mt-4 md:mt-0 ">
