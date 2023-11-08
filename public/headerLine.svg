@@ -1,7 +1,7 @@
 <svg width="1512" height="986" viewBox="0 0 1512 986" fill="none"
  xmlns="http://www.w3.org/2000/svg">
 <path d="M1189 -0.000157297V980M980 235H1188M978.697 234.924L1188.7 469.738M978.742 0.329894L1542.74 625.33M980.695 465.281L1512.69 979.281M0.707827 -0.706543L980.708 981.293M978.019 465L1189.02 469M0 -0.000157356H980V980H0V-0.000157356ZM1189 662H1512V985H1189V662Z" 
-stroke="#da3e52" stroke-width="2"
+stroke="#790102" stroke-width="2"
  stroke-dasharray="1970" stroke-dashoffset="1600"
 >
  <animate attributeName="stroke-dashoffset" values="1600;0" 

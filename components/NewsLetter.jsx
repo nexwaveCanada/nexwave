@@ -6,7 +6,7 @@ import React from 'react'
 
 function NewsLetter() {
 	return (
-		<div className="flex lg:flex-row bg-red-600 flex-col lg:justify-between justify-center items-center lg:h-auto  ">
+		<div className="flex lg:flex-row bg-[#790102] flex-col lg:justify-between justify-center items-center lg:h-auto  ">
 			
 			<Image src={supportImage} className=' h-auto w-screen lg:h-full md:w-full lg:w-auto pb-7 lg:pb-0' alt="support image"/>
 
@@ -16,7 +16,7 @@ function NewsLetter() {
 						<button className="bg-white text-green-900 p-2 mt-2">Submit</button>
 					</form> */}
 		
-			<div className='w-full lg:w-1/2 bg-red-600 justify-center flex flex-col items-center h-auto my-6 px-5 md:my-0 md:px-0'><Link href={'/ContactUs'} className='md:w-2/3 md:pl-8'>
+			<div className='w-full lg:w-1/2  justify-center flex flex-col items-center h-auto my-6 px-5 md:my-0 md:px-0'><Link href={'/ContactUs'} className='md:w-2/3 md:pl-8'>
 				<div className="text-white   md:text-justify  text-lg md:text-2xl lg:text-2xl ">
 					Our dedicated support team is here to help you. If you have any questions, please reach out to us and we&apos;ll do our best to assist you.
 				</div>

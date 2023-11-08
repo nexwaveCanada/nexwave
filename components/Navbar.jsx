@@ -11,6 +11,8 @@ const Navbar = ({ path, hideNav }) => {
         { text: "About Us", href: "/AboutUs" },
         { text: "Services", href: path + "#services" },
         { text: "Contact Us", href: "/ContactUs" },
+        { text: "CDAP", href: "/CDAP" },
+
     ];
     const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1024px)' })
     const prevScrollPos = useRef(0);

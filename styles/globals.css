@@ -146,7 +146,7 @@ nav {
 .aboutUsMainH1 p {
   font-size: 22px;
   font-weight: 400;
-  color: #000000;
+  /* color: #000000; */
 }
 
 /* .aboutUsMainH1 p:nth-child(2){
@@ -179,7 +179,6 @@ nav {
   display: flex;
   flex-direction: column;
   width: 35%;
-  background-color: white;
   gap: 10px;
   padding: 20px;
   margin-bottom: 40px;
@@ -188,7 +187,7 @@ nav {
 
 .cardNumber h1 {
   font-size: 60px;
-  color: #da3e52;
+  /* color: #da3e52; */
 }
 
 .cardHeading {
@@ -200,12 +199,12 @@ nav {
 }
 
 .aboutUsCardContainer .aboutUsCard:nth-child(2) {
-  background-color: #da3e52;
+  /* background-color: #da3e52; */
 }
 
 .aboutUsCardContainer .aboutUsCard:nth-child(odd) .cardHeading h1,
 .cardNumber h1 {
-  color: #da3e52;
+  /* color: #da3e52; */
 }
 
 .cardNumber2 h1 {
@@ -221,7 +220,7 @@ nav {
 }
 
 .whyUsContainer {
-  background-color: #da3e52;
+  /* background-color: #da3e52; */
   padding: 1px 30px;
 }
 
@@ -284,7 +283,7 @@ nav {
 .contactContentWrap {
   width: 35%;
   background: linear-gradient(to bottom, rgb(0, 0, 0, 0.2), #da3e52);
-  background: #da3e52;
+  /* background: #da3e52; */
   border-radius: 10px;
   padding: 30px;
 }
@@ -329,14 +328,14 @@ nav {
   padding-left: 10px;
   border: 1px solid grey;
   border-radius: 6px;
-  filter: opacity(0.5);
+  /* filter: opacity(0.5); */
   width: 100%;
 }
 
 .message textarea {
   width: 100%;
   border-radius: 6px;
-  filter: opacity(0.5);
+  /* filter: opacity(0.5); */
   border: 1px solid grey;
   padding: 6px;
   padding-left: 10px;
@@ -368,7 +367,7 @@ nav {
 
 .addressCard {
   width: 50%;
-  background: rgb(255, 255, 255, 0.8);
+  /* background: rgb(255, 255, 255, 0.8); */
   border-radius: 6px;
   padding: 20px 15px;
   border: 3px solid #da3e52;

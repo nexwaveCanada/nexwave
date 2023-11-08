@@ -3,6 +3,8 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Head from 'next/head';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 export default function App({ Component, pageProps }) {
   useEffect(() => {
@@ -28,6 +30,7 @@ export default function App({ Component, pageProps }) {
         sizes="16*16"
       />
     </Head>
+    <ToastContainer />
     <Component {...pageProps} />
   </main>)
 }

@@ -53,7 +53,7 @@ export default function ContactUs() {
   };
 
   return (
-    <div>
+    <div className=" bg-zinc-900">
       <Navbar path="/" hideNav={hideNavBar} />
       {/* <div className='bg-green-600 justify-center items-center flex flex-col h-72'>
         <div className='lg:w-2/3 w-full pl-8 lg:pl-0'>
@@ -68,9 +68,9 @@ export default function ContactUs() {
         </div>
       </div> */}
 
-      <div className="contactContainer mx-4 lg:mx-16 bg-gray-100">
-        <div className="contactContent">
-          <div className="contactContentWrap">
+      <div className="contactContainer mx-4 lg:mx-16">
+        <div className="contactContent ">
+          <div className="contactContentWrap bg-red-800">
             <div className="contactHeading">
               <h1>Get in touch</h1>
             </div>
@@ -96,7 +96,7 @@ export default function ContactUs() {
 
           </div>
 
-          <div className="contactForm">
+          <div className="contactForm text-gray-300">
             <form
               method="POST"
               target="_blank"

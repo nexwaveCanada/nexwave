@@ -14,7 +14,7 @@ export default function AboutUs() {
   const isBigScreen = useMediaQuery({ query: "(min-width: 1824px)" });
   const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
   return (
-    <div className=" bg-gray-100">
+    <div className=" bg-zinc-900 text-gray-300">
       <Navbar path="/" />
       <div className="aboutUsContainer mx-4 lg:mx-16">
         <div className="aboutUsMain">
@@ -26,7 +26,7 @@ export default function AboutUs() {
               <p>
                 <span className=" font-semibold flex justify-start">Simplifying Data and Marketing for SMEs.</span>
               </p>
-            <p className=" text-justify mt-4 text-black">
+            <p className="text-justify mt-4 text-gray-300">
               Hello there! Welcome to Nexwave. We&apos;re not just another tech company; we&apos;re your partners,
               bringing the magic of data right to your doorstep. Why? Because <span className=" text-red-600 font-semibold">
                 we believe in the potential of every small and medium-sized enterprise, just like yours.</span>
@@ -74,7 +74,7 @@ export default function AboutUs() {
       </div>
 
       <div className="mx-4 lg:mx-16 mt-24 aboutUsCardContainer">
-        <div className="aboutUsCard">
+        <div className="aboutUsCard bg-black text-white">
           <div className="cardNumber">
             <h1>01</h1>
           </div>
@@ -82,7 +82,7 @@ export default function AboutUs() {
             <h1>Mission</h1>
           </div>
           <div className="cardDesc">
-            <p className="text-red-600  text-justify my-4">
+            <p className="  text-justify my-4">
               To level the playing field by equipping SMEs with data-powered solutions previously reserved for industry giants.
               We are here to guide, support, and empower every business,
               regardless of size, on their journey to harness the transformative power of data.
@@ -90,7 +90,7 @@ export default function AboutUs() {
           </div>
         </div>
 
-        <div className="aboutUsCard">
+        <div className="aboutUsCard bg-red-800">
           <div className="cardNumber cardNumber2">
             <h1>02</h1>
           </div>
@@ -135,7 +135,7 @@ export default function AboutUs() {
       </div>
 
       <Partners />
-      <div className="whyUsContainer">
+      <div className="whyUsContainer bg-red-800">
         <div className="whyUsContent mx-4 lg:mx-16 mt-12 mb-12">
           <div>
             <div className="whyUsH1">
