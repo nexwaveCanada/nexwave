@@ -134,17 +134,17 @@ export default function CDAP() {
               </p>
               <div className="mt-6 flex items-center justify-center gap-x-6 gap-y-2">
                 {eligible_expenses?.slice(0, 3).map((item, index) => (
-                  <Ring>{item}</Ring>
+                  <Ring key={item}>{item}</Ring>
                 ))}
               </div>
               <div className="mt-4 flex items-center justify-center gap-x-6">
                 {eligible_expenses?.slice(3, 6).map((item, index) => (
-                  <Ring>{item}</Ring>
+                  <Ring key={item}>{item}</Ring>
                 ))}
               </div>
               <div className="mt-4 flex items-center justify-center gap-x-6">
                 {eligible_expenses?.slice(6, 7).map((item, index) => (
-                  <Ring>{item}</Ring>
+                  <Ring key={item}>{item}</Ring>
                 ))}
               </div>
             </div>
@@ -263,7 +263,7 @@ costs and fees (inclusive of grant writing)
           </h1>
 
           <div className="px-4 sm:flex justify-evenly items-center w-full gap-x-10 gap-y-4">
-            {requirements.map((item, index) => (<div className="w-full my-4 text-center h-36 bg-gradient-to-r bg-gradient-to-b from-gray-900 to-gray-600 bg-gradient-to-r rounded-2xl shadow-xl px-4 py-2 flex items-center justify-center">{item}</div>))}
+            {requirements.map((item, index) => (<div key={item} className="w-full my-4 text-center h-36 bg-gradient-to-r bg-gradient-to-b from-gray-900 to-gray-600 bg-gradient-to-r rounded-2xl shadow-xl px-4 py-2 flex items-center justify-center">{item}</div>))}
           </div>
          
 
@@ -287,7 +287,7 @@ costs and fees (inclusive of grant writing)
           </div>
         <div className="mx-auto max-w-5xl py-10 sm:py-20 lg:py-20">
         <h1 className="text-lg mb-12 font-bold tracking-tight text-gray-100 sm:text-2xl text-center ">
-          IF YOU QUALIFY, WHAT'S NEXT?
+          IF YOU QUALIFY, WHAT&apos;S NEXT?
           </h1>
 
           <div>

@@ -54,18 +54,18 @@ export default function Services() {
             </h1>
     <Tab.Group vertical={true} as={"div"} className="w-full max-w-7xl mx-auto sm:flex  ">
       <Tab.List className="sm:w-3/12 flex flex-col text-white   justify-start items-start">
-        {services.map((service) => <Tab as={Fragment} className="">
+        {services.map((service) => <Tab key={service.title} as={Fragment} className="">
         {({ selected }) => (<div className={`text-2xl font-bold leading-7 text-white sm:truncate sm:text-3xl sm:tracking-tight px-2 py-4 text-md cursor-pointer font-semibold  ${selected ? 'text-red-500 ' : 'text-gray-300  hover:text-gray-100'}`}>{service?.title}</div>
             )}</Tab>)}
       </Tab.List>
       <Tab.Panels className="sm:w-9/12 px-6 rounded-md bg-zinc-900 text-white w-full py-6">
         
       {services.map((service) => 
-      <Tab.Panel className="divider-y divider-gray-100"  data-aos="fade-in"
+      <Tab.Panel key={service.title} className="divider-y divider-gray-100"  data-aos="fade-in"
       data-aos-easing="linear"
       data-aos-duration="200">
         <div className={`text-2xl font-bold leading-7 text-white sm:truncate sm:text-3xl sm:tracking-tight px-2 py-4 text-md cursor-pointer font-semibold text-gray-500 `}>{service?.title}</div>
-        {service?.content?.map((i) => <div className='px-3 text-gray-300 hover:text-gray-200 tracking-tight text-lg my-3'>{i}</div>)}</Tab.Panel>
+        {service?.content?.map((i) => <div key={i} className='px-3 text-gray-300 hover:text-gray-200 tracking-tight text-lg my-3'>{i}</div>)}</Tab.Panel>
       
       )}
 
