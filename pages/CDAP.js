@@ -178,7 +178,7 @@ export default function CDAP() {
             }}
           />
         </div>
-        <div className="mx-auto max-w-5xl py-10 sm:py-32 lg:py-32">
+        <div className="mx-auto max-w-5xl py-10 sm:py-20 lg:py-20">
           <h1 className="text-2xl mb-12 font-bold tracking-tight text-gray-100 sm:text-2xl text-center">
             WHAT YOU ARE ELIGIBLE FOR
           </h1>
@@ -209,7 +209,7 @@ export default function CDAP() {
               </p>
             </div>
           </div>
-          <div className="flex flex-col sm:flex-row-reverse mt-20 justify-evenly items-center w-full">
+          <div className="flex flex-col sm:flex-row-reverse mt-4 justify-evenly items-center w-full">
             <div className="sm:w-3/12">
               <div className="w-48 h-48 rounded-full overflow-hidden">
                 <img
@@ -242,8 +242,8 @@ costs and fees (inclusive of grant writing)
       </div>
 
       {/* NeXT SECTION */}
-      <div className="bg-black min-h-screen text-gray-100 flex justify-center w-full items-center flex-col lg:flex-row">
-      <div className="relative isolate px-6 pt-14 lg:px-8">
+      <div className="bg-black pt-6 text-gray-100 flex justify-center w-full items-center flex-col lg:flex-row">
+      <div className="relative isolate px-6 lg:px-8">
           <div
             className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
             aria-hidden="true"
@@ -257,7 +257,7 @@ costs and fees (inclusive of grant writing)
             />
           </div>
           </div>
-        <div className="mx-auto max-w-5xl py-10 sm:py-32 lg:py-32">
+        <div className="mx-auto max-w-5xl ">
           <h1 className="text-2xl mb-12 font-bold tracking-tight text-gray-100 sm:text-2xl text-center">
           3 REQUIREMENTS
           </h1>
@@ -285,7 +285,7 @@ costs and fees (inclusive of grant writing)
             />
           </div>
           </div>
-        <div className="mx-auto max-w-5xl py-10 sm:py-32 lg:py-32">
+        <div className="mx-auto max-w-5xl py-10 sm:py-20 lg:py-20">
         <h1 className="text-lg mb-12 font-bold tracking-tight text-gray-100 sm:text-2xl text-center ">
           IF YOU QUALIFY, WHAT'S NEXT?
           </h1>
