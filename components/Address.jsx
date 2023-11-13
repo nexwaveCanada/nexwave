@@ -4,7 +4,7 @@ export default function Address() {
   return (
     <div className="bg-dotted-spacing-8 bg-dotted-red-600 flex justify-center content-center w-full bg-zinc-800">
       <div className="w-full  lg:w-2/3 2xl:w-1/2 px-8 lg:px-0 my-32 ">
-        <h1 className="mx-2 mt-2 lg:mt-12 mb-4 lg:mx-12  text-red-600 text-5xl font-bold">
+        <h1 className="mx-2 mt-2 lg:mt-12 mb-4 lg:mx-12  text-red-700 text-5xl font-bold">
           Our office
         </h1>
         <p className="mx-2 lg:mx-12 mb-4 text-lg text-gray-300 ">

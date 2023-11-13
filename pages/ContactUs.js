@@ -136,7 +136,7 @@ export default function ContactUs() {
               </div>
 
               <button
-                className="contactButtonContainer mt-6" style={{ height: 50 }}
+                className="contactButtonContainer bg-red-700 mt-6" style={{ height: 50 }}
                 type="submit"
                 value="submit"
               > {isLoading ? "Loading..." : "Contact Us"}</button>

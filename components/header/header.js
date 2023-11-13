@@ -11,7 +11,7 @@ export default function Header({ bgImage }) {
                 style={{ backgroundImage: `url(${bgImage.src})`, transform: isTabletOrMobile ? "rotate(90deg)" : "rotate(0deg)" }}
             />
             <div className="relative z-10 flex flex-col justify-center items-start h-full">
-                <h1 className='headerContent text-[#da3e52]'
+                <h1 className='headerContent text-red-700'
                 // className="lg:text-6xl text-4xl md:text-5xl font-bold  text-green-700 leading-normal bg-transparent lg:pl-16 pl-8 md:pl-16" 
                 
                 >

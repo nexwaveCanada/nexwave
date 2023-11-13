@@ -6,7 +6,7 @@ import React from 'react'
 
 function NewsLetter() {
 	return (
-		<div className="flex lg:flex-row bg-[#790102] flex-col lg:justify-between justify-center items-center lg:h-auto  ">
+		<div className="flex lg:flex-row bg-red-800 flex-col lg:justify-between justify-center items-center lg:h-auto  ">
 			
 			<Image src={supportImage} className=' h-auto w-screen lg:h-full md:w-full lg:w-auto pb-7 lg:pb-0' alt="support image"/>
 

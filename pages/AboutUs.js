@@ -19,7 +19,7 @@ export default function AboutUs() {
       <div className="aboutUsContainer mx-4 lg:mx-16">
         <div className="aboutUsMain">
           <div className="aboutUsMainH1">
-            <h1 className="MeetBeacon">
+            <h1 className="MeetBeacon text-red-700">
               <span>About Us</span>
             </h1>
             

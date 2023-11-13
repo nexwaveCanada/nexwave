@@ -133,7 +133,7 @@ nav {
 
 .aboutUsMainH1 span {
   
-  color: #da3e52;
+  /* color: #da3e52; */
   align-self: flex-start;
 }
 
@@ -282,7 +282,7 @@ nav {
 
 .contactContentWrap {
   width: 35%;
-  background: linear-gradient(to bottom, rgb(0, 0, 0, 0.2), #da3e52);
+  background: linear-gradient(to bottom, rgb(0, 0, 0, 0.2), #B30000);
   /* background: #da3e52; */
   border-radius: 10px;
   padding: 30px;
@@ -343,7 +343,6 @@ nav {
 
 .contactButtonContainer {
   width: 100%;
-  background: #da3e52;
   font-family: 'Poppins', sans-serif;
   height: 40px;
   display: flex;

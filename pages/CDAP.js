@@ -298,12 +298,12 @@ costs and fees (inclusive of grant writing)
             {step.status === 'current' ? (
               <>
                 {stepIdx !== steps.length - 1 ? (
-                  <div className="absolute left-4 top-4 -ml-px mt-0.5 h-full w-0.5 bg-gray-700" aria-hidden="true" />
+                  <div className="absolute left-4 top-4 -ml-px mt-0.5 h-full w-0.5 bg-gray-200" aria-hidden="true" />
                 ) : null}
                 <a href={step.href} className="group relative flex items-start" aria-current="step">
                   <span className="flex h-9 items-center" aria-hidden="true">
-                    <span className="relative z-10 flex h-8 w-8 items-center justify-center rounded-full border-2 border-red-800 bg-gray-500">
-                      <span className="h-2.5 w-2.5 rounded-full bg-red-800" />
+                    <span className="relative z-10 flex h-8 w-8 items-center justify-center rounded-full border-2 border-white bg-red-700">
+                      <span className="h-2.5 w-2.5 rounded-full bg-white" />
                     </span>
                   </span>
                   <span className="ml-4 flex min-w-0 flex-col">
