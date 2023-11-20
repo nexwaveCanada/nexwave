@@ -4,6 +4,7 @@ import NavItem from "./Navitem";
 import logo from 'public/brands/Nexwave---White.png'
 import Image from "next/image";
 import { useMediaQuery } from 'react-responsive'
+import { FaBars, FaHamburger } from "react-icons/fa";
 
 
 const Navbar = ({ path, hideNav }) => {
@@ -76,11 +77,13 @@ const Navbar = ({ path, hideNav }) => {
                     onClick={() => setNavActive(!navActive)}
                     className={`nav__menu-bar`}
                 >
+                     <FaBars className="h-10 w-10 md:hidden" />
+                    
+                    {/* <div></div>
                     <div></div>
-                    <div></div>
-                    <div></div>
+                    <div></div> */}
                 </div>
-                <div className={`${navActive ? "active" : ""} nav__menu-list`}>
+                <div className={`${navActive ? "active " : ""} nav__menu-list bg-black`}>
                     {MENU_LIST.map((menu, idx) => (
                         <div
                             onClick={() => {
