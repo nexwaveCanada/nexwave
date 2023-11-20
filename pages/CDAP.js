@@ -112,7 +112,7 @@ export default function CDAP() {
               }}
             />
           </div>
-          <div className="mx-auto max-w-2xl py-32 sm:py-32 lg:py-32">
+          <div className="mx-auto max-w-2xl py-10 sm:py-32 lg:py-32">
             <div className="text-center">
               <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-gray-100 sm:text-2xl mb-10">
                 CANADA DIGITAL ADOPTION PROGRAM
@@ -132,6 +132,7 @@ export default function CDAP() {
               <p className="mt-10  text-gray-400 font-semibold">
                 Eligible Expenses
               </p>
+              <div className="hidden sm:block">
               <div className="mt-6 flex items-center justify-center gap-x-6 gap-y-2">
                 {eligible_expenses?.slice(0, 3).map((item, index) => (
                   <Ring key={item}>{item}</Ring>
@@ -145,6 +146,12 @@ export default function CDAP() {
               <div className="mt-4 flex items-center justify-center gap-x-6">
                 {eligible_expenses?.slice(6, 7).map((item, index) => (
                   <Ring key={item}>{item}</Ring>
+                ))}
+              </div>
+              </div>
+              <div className="block sm:hidden">
+              {eligible_expenses.map((item, index) => (
+                  <p className="my-1 text-gray-400 hover:text-red-700">{item}</p>
                 ))}
               </div>
             </div>
@@ -369,7 +376,7 @@ costs and fees (inclusive of grant writing)
               </div>
 
               <button
-                className="contactButtonContainer mt-6" style={{ height: 50 }}
+                className="contactButtonContainer bg-gray-800 mt-6" style={{ height: 50 }}
                 type="submit"
                 value="submit"
               > {isLoading ? "Loading..." : "Contact Us"}</button>
