@@ -80,7 +80,7 @@ nav {
   right: -288px;
   padding: 24px 16px;
   transition: all 0.2s;
-  min-height: calc(100vh - 60px);
+  /* min-height: calc(100vh - 60px); */
 
 }
 
