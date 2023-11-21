@@ -51,7 +51,6 @@ export default function Home() {
    mounted && <div className=" bg-gray-800 w-full">
       <Navbar path="" hideNav={hideNavBar} />
       <Header bgImage={bgImage} />
-      
       {
         !isMobile &&
         <div>

@@ -94,22 +94,32 @@ function Footer({ path }) {
 				</div>
 				<ul className="flex gap-6 justify-center pt-5 lg:pt-0 lg:pl-2.5">
 					<li>
-						<FaInstagram className="text-3xl cursor-pointer hover:text-yellow-600 text-teal-600" />
+					<a href="https://instagram.com/nexwave.cx?igshid=MzMyNGUyNmU2YQ==" target="_blank" rel="noreferrer">
+							<FaInstagram className="text-3xl cursor-pointer hover:text-red-600 text-teal-600" />
+						</a>
 					</li>
 					<li>
+
+						<a href="https://x.com/nexwavecx?s=11&t=qrNbLjjvSaFuKM-m23d6Rg" target="_blank" rel="noreferrer">
 						<FaTwitter className="text-3xl cursor-pointer hover:text-blue-600 text-teal-600" />
+						</a>
 					</li>
+
 					<li>
+						<a href="https://www.linkedin.com/company/nexwavecanada/" target="_blank" rel="noreferrer">
 						<FaLinkedin className="text-3xl cursor-pointer hover:text-blue-600 text-teal-600 " />
+						</a>
 					</li>
 					<li>
+					<a href="https://youtube.com/@nexwavecx?si=6gxIFH0Ii2c5yNfn" target="_blank" rel="noreferrer">
 						<FaYoutube className="text-3xl cursor-pointer hover:text-red-600 text-teal-600" />
+						</a>
 					</li>
 				</ul>
 			</div>
 			<div className="flex flex-col md:flex-row text-center bg-gray-800 px-4 md:px-32 py-4 md:py-8 justify-between">
 				<h1 className="text-gray-200 ">
-					© 2023 by Nexwave | All Right Reserved | Powered by <a href="https://procube.cx/" className="  font-bold">procube.cx</a>
+					© 2023 by Nexwave | All Right Reserved | Powered by <a href="https://nexwave.cx/" className="  font-bold">nexwave.cx</a>
 				</h1>
 				<h1 className="text-red-600 font-bold uppercase mt-4 md:mt-0 ">
 					Privacy policy | Terms & Conditions

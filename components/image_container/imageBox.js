@@ -13,6 +13,8 @@ export default function ImageBox({ imagePath, text, bgColor, discription, id }) 
             style={{ backgroundImage: `url(${imagePath.src})`, }}
             className={styles.c} id={id}>
             <div className={styles.container} style={containerStyle}>
+            <div className='absolute top-6 '> <p className='mt-4 text-white font-semibold text-lg sm:text-2xl'> Featured Services</p></div>
+
                 {/* <div
                     className=" w-full bg-contain bg-opacity-90 bg-black/[.8]"
                     // style={{ backgroundImage: `url(${bgImage.src})`, transform: isTabletOrMobile ? "rotate(90deg)" : "rotate(0deg)" }}

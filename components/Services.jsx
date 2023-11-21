@@ -50,7 +50,7 @@ export default function Services() {
     return (
         <div className="flex bg-gradient-to-b from-gray-900 to-gray-800 bg-gradient-to-r flex-col items-left lg:justify-center w-auto lg:h-screen sticky top-0 bg-cover bg-gray-100 scroll-smooth" id='services'>
             <h1 className="ml-4 lg:ml-32 pb-8 md:pb-16  text-red-600 font-semibold pt-14 lg:pt-0   ">
-                FEATURED SERVICES
+                OUR SERVICES
             </h1>
     <Tab.Group vertical={true} as={"div"} className="w-full max-w-7xl mx-auto sm:flex  ">
       <Tab.List className="sm:w-3/12 flex flex-col text-white   justify-start items-start">

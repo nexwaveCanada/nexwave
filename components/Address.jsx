@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Address() {
   return (
-    <div className="bg-dotted-spacing-8 bg-dotted-red-600 flex justify-center content-center w-full bg-zinc-800">
+    <div className="bg-dotted-spacing-8  flex justify-center content-center w-full bg-zinc-800 opacity-90">
       <div className="w-full  lg:w-2/3 2xl:w-1/2 px-8 lg:px-0 my-32 ">
         <h1 className="mx-2 mt-2 lg:mt-12 mb-4 lg:mx-12  text-red-700 text-5xl font-bold">
           Our office
@@ -12,7 +12,7 @@ export default function Address() {
         creating innovative solutions that elevate their experience with your brand or product.
         </p>
         <div className="lg:mx-16 bg-gray-100 mb-7 flex-row addressContainer bg-transparent">
-          <div className="  flex-col addressCard bg-zinc-900 opacity-90 bg-dotted-spacing-8 text-gray-300 bg-dotted-red-600">
+          <div className="  flex-col addressCard bg-zinc-900 opacity-90  text-gray-300 ">
             <h2 className=" p-4 text-red-600 font-bold uppercase text-sm">
               Canada
             </h2>
