@@ -151,7 +151,7 @@ export default function CDAP() {
               </div>
               <div className="block sm:hidden">
               {eligible_expenses.map((item, index) => (
-                  <p className="my-1 text-gray-400 hover:text-red-700">{item}</p>
+                  <p key={item} className="my-1 text-gray-400 hover:text-red-700">{item}</p>
                 ))}
               </div>
             </div>
